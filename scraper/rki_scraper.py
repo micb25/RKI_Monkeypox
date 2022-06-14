@@ -29,10 +29,11 @@ class RKI_Monkeypox_Scraper:
         
         
 class RKI_Monkeypox_CSV:
-    def __init__(self):
+    def __init__(self, verbose=False):
         self.CSV = os.path.dirname(os.path.realpath(__file__)) + os.sep + '..' + os.sep + 'data' + os.sep + 'RKI_Monkeypox.csv'
         self.load_CSV()
         self.scraper = RKI_Monkeypox_Scraper()
+        self.verbose = verbose
         
     def load_CSV(self):
         self.df = pd.read_csv(self.CSV, sep=',', decimal='.', encoding='utf-8')
@@ -51,13 +52,17 @@ class RKI_Monkeypox_CSV:
         
     def update(self):
         self.scraper.fetch_data()
+        if self.verbose:
+            print("scraper returned data: {}, {}".format(self.scraper.date, self.scraper.result))
         if self.scraper.result is not None and self.scraper.date is not None:
-            if not (self.df.date == pd.Timestamp(self.scraper.date)).any():            
+            if not (self.df.date == pd.Timestamp(self.scraper.date)).any():
                 self.df = self.df.append({'date': self.scraper.date, 'total_cases': self.scraper.result, 'inc_cases': 0}, ignore_index=True)
+                if self.verbose:
+                    print("-> data added")
         self.process()
         self.save_CSV()
 
 
 if __name__ == "__main__":
-    c = RKI_Monkeypox_CSV()
+    c = RKI_Monkeypox_CSV(verbose=True)
     c.update()
