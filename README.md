@@ -6,6 +6,7 @@ Dieses Repository sammelt automatisiert die aktuellen Meldezahlen zum Affenpocke
 
 ## Visualisierungen
 ![](plots_de/plot_sum_cases.png)
+![](plots_de/plot_num_cases.png)
 
 ## Daten
 - gesammelte [CSV-Rohdaten](data/RKI_Monkeypox.csv)
