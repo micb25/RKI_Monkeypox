@@ -20,7 +20,7 @@ jobs:
       - name: Install python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests pandas
       - name: scrape RKI data
         run: cd scraper && env python3 ./rki_scraper.py && cd ../
       - name: Commit files
