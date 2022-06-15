@@ -13,10 +13,10 @@ unset ylabel
 # key
 unset key
 
-set boxwidth 0.80*86400
+set boxwidth 0.50*86400
 set style fill solid 1.00
 
-set offsets graph 0.01, graph 0.01, graph 0.30, 0.00
+set offsets graph 0.001, graph 0.001, graph 0.30, 0.00
 
 ##################################### German
 
