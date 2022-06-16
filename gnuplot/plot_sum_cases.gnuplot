@@ -21,7 +21,7 @@ set offsets graph 0.01, graph 0.01, graph 0.30, 0.00
 date_cmd = sprintf("%s", "`awk -F, '{print ""($1)}' ../data/RKI_Monkeypox.csv | tail -n 1 | xargs date +"%Y-%m-%d" -d`")
 update_str = "letztes Update: " . date_cmd . "; Quelle: Corona-Warn-App"
 
-set label 1 at graph 0.50, 0.95 "{/Linux-Libertine-O-Bold*1.2 Summe der Affenpockenfälle in Deutschland}" center textcolor ls 0
+set label 1 at graph 0.50, 0.95 "{/Linux-Libertine-O-Bold*1.2 Summe der gemeldeten Affenpockenfälle in Deutschland}" center textcolor ls 0
 set label 2 at graph 0.50, 0.90 "{/*0.75 (Quelle: Robert Koch-Institut)}" center textcolor ls 0
 
 plot  \
