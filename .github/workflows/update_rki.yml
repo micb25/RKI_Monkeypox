@@ -3,7 +3,7 @@ name: daily RKI update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 11 * * *"
 
 jobs:
   update_page:
@@ -32,6 +32,7 @@ jobs:
           git config --local user.name  ${{ github.actor }}
           git add ./data/*.csv
           git add ./plots_de/*.png
+          git add ./plots_en/*.png
           git commit -m "daily RKI update"
       - name: Push changes
         uses: ad-m/github-push-action@master

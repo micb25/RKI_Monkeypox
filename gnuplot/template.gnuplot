@@ -29,7 +29,7 @@ set style fill transparent solid 0.20 border
 # axes
 set yrange [ 0: * ]
 
-set xtics 7*86400 out nomirror rotate by 90 offset 0, -3.0 scale 1.0
+set xtics 7*86400 out nomirror rotate by 90 offset 0, -3.5 scale 1.0
 set mxtics 7
 
 set format y '%5.0f'
@@ -46,4 +46,3 @@ filter_neg(x)=(x>=0)?(x):(1/0)
 
 set timefmt "%Y-%m-%d"
 set datafile separator ","
-
