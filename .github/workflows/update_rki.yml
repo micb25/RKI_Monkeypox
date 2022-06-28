@@ -1,4 +1,4 @@
-name: daily RKI update
+name: daily RKI update and processing
 
 on:
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pandas
       - name: scrape RKI data
-        run: cd scraper && env python3 ./rki_scraper.py && cd ../
+        run: cd scraper && env python3 ./rki_scraper.py && env python3 ./rki_processing.py && cd ../
       - name: run gnuplot
         run: cd gnuplot/ && gnuplot plot_sum_cases.gnuplot && gnuplot plot_sum_cases_log.gnuplot && gnuplot plot_num_cases.gnuplot && cd ../
       - name: Commit files
@@ -34,7 +34,7 @@ jobs:
           git add ./data/*.csv
           git add ./plots_de/*.png
           git add ./plots_en/*.png
-          git diff-index --quiet HEAD || git commit -m "daily RKI update"
+          git diff-index --quiet HEAD || git commit -m "daily RKI update and processing"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
