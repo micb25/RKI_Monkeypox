@@ -2,6 +2,7 @@ name: daily RKI update
 
 on:
   workflow_dispatch:
+  push:
   schedule:
     - cron: "5 * * * *"
 
