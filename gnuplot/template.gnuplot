@@ -13,7 +13,7 @@ set bmargin 4.50
 
 # colors and plot style
 set style line  1 lc rgb '#0000FF' lt 1 lw 1 pt 7 ps 2.00
-set style line  2 lc rgb '#FF0000' lt 1 lw 1 pt 7 ps 2.00
+set style line  2 lc rgb '#FF0000' lt 1 lw 4 pt 7 ps 2.00
 set style line  3 lc rgb '#00A000' lt 1 lw 1 pt 7 ps 2.00
 set style line  4 lc rgb '#000080' lt 1 lw 1 pt 7 ps 2.00
 
@@ -28,6 +28,7 @@ set style fill transparent solid 0.20 border
 
 # axes
 set yrange [ 0: * ]
+set xrange [strptime("%Y-%m-%d", "2022-05-19"):*]
 
 set xtics 7*86400 out nomirror rotate by 90 offset 0, -3.5 scale 1.0
 set mxtics 7
@@ -36,7 +37,7 @@ set format y '%5.0f'
 set ytics out nomirror scale 1.2
 set mytics 2
 
-set key opaque
+set key left at screen 0.12, 0.80 opaque box vertical width 0.5 height 0.5 maxcols 1 spacing 1 
 set border back
 
 set object 1 rectangle from screen -0.1,-0.1 to screen 1.1,1.1 fc rgb "#ffffff" behind

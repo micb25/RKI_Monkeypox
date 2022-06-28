@@ -5,14 +5,13 @@ set output '../plots_de/plot_sum_cases.png'
 # x-axis setup
 unset xlabel
 set xdata time
-set format x "%d.%m.%y"
+set format x "%d.%m.%Y"
+
+# key
+unset key
 
 # y-axis setup
 unset ylabel
-
-# key
-# set key at graph 0.98, graph 0.03 right bottom invert spacing 1.3 box ls 1 lc "#000000"
-unset key
 
 set offsets graph 0.01, graph 0.01, graph 0.30, 0.00
 
