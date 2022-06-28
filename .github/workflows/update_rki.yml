@@ -33,7 +33,7 @@ jobs:
           git add ./data/*.csv
           git add ./plots_de/*.png
           git add ./plots_en/*.png
-          git commit -m "daily RKI update"
+          git diff-index --quiet HEAD || git commit -m "daily RKI update"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
