@@ -59,7 +59,7 @@ class RKI_Monkeypox_Processing:
         
         # adds 7-day incidence
         self.df['inc_cases_7d_mean'] = self.df['inc_cases'].rolling(window=7).mean().fillna(0.0)
-        self.df['7d_incidence_100k'] = self.df['inc_cases_7d_mean'] / self.pop * 100_000 
+        self.df['7d_incidence_100k'] = self.df['inc_cases'].rolling(window=7).sum().fillna(0.0) / self.pop * 100_000 
        
 if __name__ == "__main__":
     c = RKI_Monkeypox_Processing()
