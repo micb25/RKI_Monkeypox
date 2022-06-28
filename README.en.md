@@ -11,6 +11,7 @@ This repository automatically scrapes and collects the current case numbers for 
 ![](plots_en/plot_sum_cases.png)
 
 ## Data
+- [processed data (CSV)](data/RKI_Monkeypox_processed.csv)
 - [scraped raw data (CSV)](data/RKI_Monkeypox.csv)
 
 ## Source
