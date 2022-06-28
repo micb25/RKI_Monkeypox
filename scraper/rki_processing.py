@@ -7,9 +7,8 @@ import numpy as np
 from rki_scraper import RKI_Monkeypox_CSV
 
 class RKI_Monkeypox_Processing:
-    def __init__(self, verbose=False):
+    def __init__(self):
         self.CSV = RKI_Monkeypox_CSV()
-        self.verbose = verbose
         self.pre_days = 7
         self.filename = os.path.dirname(os.path.realpath(__file__)) + os.sep + '..' + os.sep + 'data' + os.sep + 'RKI_Monkeypox_processed.csv'
         # population of Germany(2021-12-31)
@@ -27,15 +26,13 @@ class RKI_Monkeypox_Processing:
         self.df.to_csv(self.filename, sep=',', decimal='.', encoding='utf-8', float_format='%.4f', index=False)
         
     def process(self):
-        # extend the table (add missing dates in-between)
-        
-        # generate the date range
+        # generates a date range 
         min_date = self.CSV.df['date'].min() - pd.Timedelta(self.pre_days, unit='d')
         max_date = self.CSV.df['date'].max()
         date_range = max_date - min_date
         dr = pd.date_range(min_date, periods=date_range.days + 1, freq='d')
         
-        # generate the dataframe
+        # generates the dataframe
         table_template = {
             'date': dr,
             'total_cases': pd.to_numeric(np.zeros(shape=(len(dr))))
@@ -43,28 +40,27 @@ class RKI_Monkeypox_Processing:
         sum_cases = 0        
         self.df = pd.DataFrame(table_template)
         
-        # fill-in case counts
+        # fills in case counts and adds missing dates in-between
         for i, row in self.df.iterrows():
             if row['date'] in self.CSV.df['date'].values:
                 sum_cases = self.CSV.df.loc[self.CSV.df['date'] == row['date']]['total_cases']
             self.df.at[i, 'total_cases'] = sum_cases
         self.df['total_cases'] = self.df['total_cases'].astype(int)
         
-        # increments
-        self.df['inc_cases'] = self.df['total_cases'].diff(1)
-        self.df.at[0, 'inc_cases'] = self.df.iloc[0]['total_cases']
+        # adds increments
+        self.df['inc_cases'] = self.df['total_cases'].diff(1).fillna(0.0)
         self.df['inc_cases'] = self.df['inc_cases'].astype(int)
         
-        # 7-day incidence
+        # adds 7-day incidence
         self.df['inc_cases_7d_mean'] = self.df['inc_cases'].rolling(window=7).mean().fillna(0.0)
         self.df['7d_incidence_100k'] = self.df['inc_cases_7d_mean'] / self.pop * 100_000 
         
-        # total incidence
+        # adds total incidence
         self.df['total_incidence_100k'] = self.df['total_cases'] / self.pop * 100_000 
         
        
 if __name__ == "__main__":
-    c = RKI_Monkeypox_Processing(verbose=True)
+    c = RKI_Monkeypox_Processing()
     c.process()
     c.save_CSV()
     
