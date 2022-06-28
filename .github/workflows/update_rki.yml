@@ -27,7 +27,7 @@ jobs:
       - name: scrape RKI data
         run: cd scraper && env python3 ./rki_scraper.py && cd ../
       - name: run gnuplot
-        run: cd gnuplot/ && gnuplot plot_sum_cases.gnuplot && gnuplot plot_num_cases.gnuplot && cd ../
+        run: cd gnuplot/ && gnuplot plot_sum_cases.gnuplot && gnuplot plot_sum_cases_log.gnuplot && gnuplot plot_num_cases.gnuplot && cd ../
       - name: Commit files
         run: |
           git config --local user.name  ${{ github.actor }}

@@ -8,6 +8,7 @@ This repository automatically scrapes and collects the current case numbers for 
 
 ## Figures
 ![](plots_en/plot_num_cases.png)
+![](plots_en/plot_sum_cases_log.png)
 ![](plots_en/plot_sum_cases.png)
 
 ## Data
