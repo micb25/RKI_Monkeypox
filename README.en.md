@@ -6,11 +6,6 @@ _[Deutsche Fassung](README.md)_
 
 This repository automatically scrapes and collects the current case numbers for the monkeypox outbreak in Germany from the Robert Koch Institute (RKI) website and visualizes the collected data.
 
-## Figures
-![](plots_en/plot_num_cases.png)
-![](plots_en/plot_sum_cases_log.png)
-![](plots_en/plot_sum_cases.png)
-
 ## Data
 - [processed data (CSV)](data/RKI_Monkeypox_processed.csv)
 - [scraped raw data (CSV)](data/RKI_Monkeypox.csv)
@@ -18,3 +13,13 @@ This repository automatically scrapes and collects the current case numbers for 
 ## Source
 - [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/A/Affenpocken/Ausbruch-2022-Situation-Deutschland.html)
 
+## Figures
+![](plots_en/plot_num_cases.png)
+
+![](plots_en/plot_sum_cases_log.png)
+
+![](plots_en/plot_sum_cases.png)
+
+![](plots_en/plot_incidence.png)
+
+![](plots_en/plot_7d_incidence.png)
