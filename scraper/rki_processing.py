@@ -47,17 +47,19 @@ class RKI_Monkeypox_Processing:
             self.df.at[i, 'total_cases'] = sum_cases
         self.df['total_cases'] = self.df['total_cases'].astype(int)
         
+        # adds 7-day mean of total cases
+        self.df['total_cases_7d_mean'] = self.df['total_cases'].rolling(window=7).mean().fillna(0.0)
+        
+        # adds total incidence
+        self.df['total_incidence_100k'] = self.df['total_cases'] / self.pop * 100_000
+        
         # adds increments
         self.df['inc_cases'] = self.df['total_cases'].diff(1).fillna(0.0)
-        self.df['inc_cases'] = self.df['inc_cases'].astype(int)
+        self.df['inc_cases'] = self.df['inc_cases'].astype(int)        
         
         # adds 7-day incidence
         self.df['inc_cases_7d_mean'] = self.df['inc_cases'].rolling(window=7).mean().fillna(0.0)
         self.df['7d_incidence_100k'] = self.df['inc_cases_7d_mean'] / self.pop * 100_000 
-        
-        # adds total incidence
-        self.df['total_incidence_100k'] = self.df['total_cases'] / self.pop * 100_000 
-        
        
 if __name__ == "__main__":
     c = RKI_Monkeypox_Processing()
