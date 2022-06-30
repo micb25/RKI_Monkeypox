@@ -23,3 +23,6 @@ Dieses Repository sammelt automatisiert die aktuellen Meldezahlen zum Affenpocke
 ![](plots_de/plot_incidence.png)
 
 ![](plots_de/plot_7d_incidence.png)
+
+## Mitwirkende
+<a href="https://github.com/micb25/RKI_Monkeypox/graphs/contributors"><img src="https://contrib.rocks/image?repo=micb25/RKI_Monkeypox" /></a>

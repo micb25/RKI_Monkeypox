@@ -23,3 +23,6 @@ This repository automatically scrapes and collects the current case numbers for 
 ![](plots_en/plot_incidence.png)
 
 ![](plots_en/plot_7d_incidence.png)
+
+## Contributors
+<a href="https://github.com/micb25/RKI_Monkeypox/graphs/contributors"><img src="https://contrib.rocks/image?repo=micb25/RKI_Monkeypox" /></a>
