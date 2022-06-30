@@ -16,7 +16,7 @@ set logscale y
 set mytics 10
 set yrange[1:*]
 
-set offsets graph 0.01, graph 0.01, graph 0.20, 0.00
+set offsets graph 0.01, graph 0.01, graph 0.25, 0.00
 
 ##################################### German
 
