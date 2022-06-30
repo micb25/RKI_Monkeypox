@@ -8,7 +8,7 @@ set xdata time
 set format x "%d.%m.%Y"
 
 # y-axis setup
-set format y '%.1f'
+set format y '%.0f'
 unset ylabel
 
 # key
