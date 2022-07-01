@@ -9,6 +9,7 @@ Dieses Repository sammelt automatisiert die aktuellen Meldezahlen zum Affenpocke
 ## Daten
 - [prozessierte CSV-Daten](data/RKI_Monkeypox_processed.csv)
 - [gesammelte CSV-Rohdaten](data/RKI_Monkeypox.csv)
+- [manuell gesammelte CSV-Daten vom Twitterkanal des RKIs](data/RKI_Monkeypox_Twitter.csv)
 
 ## Datenquelle
 - [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/A/Affenpocken/Ausbruch-2022-Situation-Deutschland.html)
