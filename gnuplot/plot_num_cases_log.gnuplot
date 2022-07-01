@@ -11,7 +11,7 @@ set format x "%d.%m.%Y"
 unset ylabel
 set logscale y
 set mytics 10
-set yrange[1:*]
+set yrange[1:1000<*]
 
 set boxwidth 0.50*86400
 set style fill solid 1.00
