@@ -1,4 +1,4 @@
-name: daily RKI SurvStat scraper
+name: daily RKI SurvStat scraping and processing
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     - cron: "* 9-14 * * *"
 
 jobs:
-  rki_survstat_scrape:
+  rki_survstat:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,15 +22,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pandas requests beautifulsoup4 webdriver-manager selenium
       - name: scrape RKI SurvStat data
-        run: cd scraper && env python3 ./rki_survstat_scraper.py && cd ../
+        run: cd scraper && env python3 ./rki_survstat_scraper.py && env python3 ./rki_survstat_processing.py && cd ../
       - name: Commit files
         run: |
           git config --local user.name  ${{ github.actor }}
+          git add ./data/*.csv
           git add ./data/RKI_SurvStat_by_date/*.csv
-          git diff-index --quiet HEAD || git commit -m "daily RKI SurvStat scraper"
+          git diff-index --quiet HEAD || git commit -m "daily RKI SurvStat scraping and processing"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
-
