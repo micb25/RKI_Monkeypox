@@ -16,12 +16,26 @@
     <meta name="twitter:description" content="Monkeypox tracker for Germany" />
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/RKI_Monkeypox/assets/css/style.css">
+    <style>
+			.graphChartContainer {
+				width: 95%;
+				max-width: 1500px;
+				margin: auto;
+			}
+    </style>
   </head>
   <body>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery.csv.min.js"></script>
+    <script src="./js/apexcharts.min.js"></script>
+    <script src="./js/graphs.js"></script>
     <div class="container-lg px-3 my-5 markdown-body">
-        <h1 id="dka">github.com/micb25/RKI_Monkeypox (<a href="https://github.com/micb25/RKI_Monkeypox">Link</a>)</h1>
+        <h1 id="mpx">github.com/micb25/RKI_Monkeypox (<a href="https://github.com/micb25/RKI_Monkeypox">Link</a>)</h1>
         <p>Author: <a href="https://www.xn--michael-bhme-djb.de">Michael Böhme</a> (<a href="https://twitter.com/theochemiker">@theochemiker</a>)</p>
-        <p>tba</p>
+        <h2 id="total_cases">tba</h2>
+        <div class="graphChartContainer">
+          <div id="MPXTotalCases"></div>
+        </div>
     </div>
   </body>
 </html>
