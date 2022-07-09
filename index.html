@@ -22,20 +22,46 @@
 				max-width: 1500px;
 				margin: auto;
 			}
+      .grid-widget {
+          flex: 1;
+          box-sizing: border-box;
+          padding: 0;
+          height: 100%;
+          min-height: 0;
+          width: 100%;
+          overflow: auto;
+      }
+      .chart-wrapper {
+        width: 100%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+      }
     </style>
   </head>
   <body>
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/jquery.csv.min.js"></script>
     <script src="./js/apexcharts.min.js"></script>
-    <script src="./js/graphs.js"></script>
     <div class="container-lg px-3 my-5 markdown-body">
         <h1 id="mpx">github.com/micb25/RKI_Monkeypox (<a href="https://github.com/micb25/RKI_Monkeypox">Link</a>)</h1>
         <p>Author: <a href="https://www.xn--michael-bhme-djb.de">Michael Böhme</a> (<a href="https://twitter.com/theochemiker">@theochemiker</a>)</p>
-        <h2 id="total_cases">tba</h2>
+        
+        <h2 id="total_cases">Newly reported monkeypox cases in Germany</h2>
         <div class="graphChartContainer">
-          <div id="MPXTotalCases"></div>
+          <div class="grid-widget">
+            <div id="MPXNewCases" class="chart-wrapper"></div>
+          </div>
         </div>
-    </div>
+
+        <h2 id="total_cases">Sum of reported monkeypox cases in Germany</h2>
+        <div class="graphChartContainer">
+          <div class="grid-widget">
+            <div id="MPXTotalCases" class="chart-wrapper"></div>
+          </div>
+        </div>
+    </div>    
+    <script src="./js/graphs.js"></script>
+    <script>startUp();</script>
   </body>
 </html>
