@@ -11,11 +11,11 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 
 class RKI_SurvStat_Scraper:
-    def __init__(self, headless=True, verbose=False):
+    def __init__(self, data_folder='RKI_SurvStat_by_date', headless=True, verbose=False):
         self.URL = 'https://survstat.rki.de/Content/Query/Create.aspx'
         self.verbose = verbose
         self.isodate = "1970-01-01"
-        self.data_folder = os.path.dirname(os.path.realpath(__file__)) + os.sep + '..' + os.sep + 'data' + os.sep + 'RKI_SurvStat_by_date' + os.sep
+        self.data_folder = os.path.dirname(os.path.realpath(__file__)) + os.sep + '..' + os.sep + 'data' + os.sep + data_folder + os.sep
         self.df = None
                     
         # sets selenium settings
