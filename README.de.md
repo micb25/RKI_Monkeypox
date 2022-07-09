@@ -10,6 +10,7 @@ Dieses Repository sammelt automatisiert die aktuellen Meldezahlen zum Affenpocke
 - [prozessierte CSV-Daten](data/RKI_Monkeypox_processed.csv)
 - [prozessierte CSV-Daten nach Altersgruppe](data/RKI_Monkeypox_processed_age_groups.csv)
 - [prozessierte CSV-Daten nach Bundesland](data/RKI_Monkeypox_processed_states.csv)
+- [gesammelte CSV-Rohdaten pro Kreis](data/RKI_SurvStat_by_date_and_district/)
 - [gesammelte CSV-Rohdaten](data/RKI_Monkeypox.csv)
 - [manuell gesammelte CSV-Daten vom Twitterkanal des RKIs](data/RKI_Monkeypox_Twitter.csv)
 
