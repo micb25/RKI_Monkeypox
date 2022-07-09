@@ -1,0 +1,38 @@
+name: daily RKI SurvStat scraper
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "* 9-14 * * *"
+
+jobs:
+  rki_survstat_scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+      - name: set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+      - name: remove Chrome
+        run: sudo apt purge google-chrome-stable
+      - name: update apt
+        run: sudo apt-get update
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas requests beautifulsoup4 webdriver-manager selenium
+      - name: scrape RKI SurvStat data
+        run: cd scraper && env python3 ./rki_survstat_scraper.py && cd ../
+      - name: Commit files
+        run: |
+          git config --local user.name  ${{ github.actor }}
+          git add ./data/RKI_SurvStat_by_date/*.csv
+          git diff-index --quiet HEAD || git commit -m "daily RKI SurvStat scraper"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
+
