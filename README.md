@@ -8,6 +8,8 @@ This repository automatically scrapes and collects the current case numbers for 
 
 ## Data
 - [processed data (CSV)](data/RKI_Monkeypox_processed.csv)
+- [processed data (CSV) per age group](data/RKI_Monkeypox_processed_age_groups.csv)
+- [processed data (CSV) per state](data/RKI_Monkeypox_processed_states.csv)
 - [scraped raw data (CSV)](data/RKI_Monkeypox.csv)
 - [manually scraped data from RKI on Twitter (CSV)](data/RKI_Monkeypox_Twitter.csv)
 
@@ -17,6 +19,8 @@ This repository automatically scrapes and collects the current case numbers for 
 
 ## Figures
 ![](plots_en/plot_num_cases.png)
+
+![](plots_en/plot_age_groups.png)
 
 ![](plots_en/plot_num_cases_log.png)
 
