@@ -26,7 +26,7 @@ jobs:
       - name: scrape RKI SurvStat data
         run: cd scraper && env python3 ./rki_survstat_scraper.py && env python3 ./rki_survstat_processing.py && cd ../
       - name: run gnuplot
-        run: cd gnuplot/ && gnuplot plot_age_groups.gnuplot && cd ../
+        run: cd gnuplot/ && gnuplot plot_age_groups.gnuplot && gnuplot plot_states.gnuplot && cd ../
       - name: Commit files
         run: |
           git config --local user.name  ${{ github.actor }}
