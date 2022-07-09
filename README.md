@@ -11,8 +11,9 @@ This repository automatically scrapes and collects the current case numbers for 
 - [scraped raw data (CSV)](data/RKI_Monkeypox.csv)
 - [manually scraped data from RKI on Twitter (CSV)](data/RKI_Monkeypox_Twitter.csv)
 
-## Source
+## Sources
 - [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/A/Affenpocken/Ausbruch-2022-Situation-Deutschland.html)
+- [SurvStat@RKI 2.0, https://survstat.rki.de](https://survstat.rki.de)
 
 ## Figures
 ![](plots_en/plot_num_cases.png)
