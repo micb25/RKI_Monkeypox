@@ -32,6 +32,7 @@ jobs:
           git config --local user.name  ${{ github.actor }}
           git add ./data/*.csv
           git add ./data/RKI_SurvStat_by_date/*.csv
+          git add ./data/RKI_SurvStat_by_date_and_district/*.csv
           git add ./plots_de/*.png
           git add ./plots_en/*.png
           git diff-index --quiet HEAD || git commit -m "daily RKI SurvStat scraping and processing"
