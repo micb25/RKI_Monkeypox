@@ -3,7 +3,7 @@ name: daily RKI SurvStat scraping and processing
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* 9-14 * * *"
+    - cron: "0 9-14 * * *"
 
 jobs:
   rki_survstat:
