@@ -81,7 +81,7 @@ function startUp()
 
         var options_new = jQuery.extend(true, {}, default_chart_options);
         options_new['series'] = [
-            { name: 'Newly monkeypox cases in Germany', type: 'bar', data: xy_new_cases },
+            { name: 'New monkeypox cases in Germany', type: 'bar', data: xy_new_cases },
             { name: '7-day average', type: 'line', data: xy_new_cases_mean }
         ];
         options_new['yaxis']['title']['text'] = 'New cases';
