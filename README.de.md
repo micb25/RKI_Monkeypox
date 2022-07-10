@@ -4,7 +4,7 @@ _[English version](README.md)_
 
 ## Beschreibung
 
-Dieses Repository sammelt automatisiert die aktuellen Meldezahlen zum Affenpockenausbruch in Deutschland von den Seiten des Robert Koch-Instituts (RKI) und stellt die gesammelten Daten grafisch dar.
+Dieses Repository sammelt automatisiert die aktuellen Meldezahlen zum Affenpockenausbruch in Deutschland von den Seiten des Robert Koch-Instituts (RKI) und stellt die gesammelten Daten grafisch dar. Die Diagramme in diesem Repository sind lizensiert unter [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/de/).
 
 ## Interaktive Webseite
 - [https://micb25.github.io/RKI_Monkeypox](https://micb25.github.io/RKI_Monkeypox)
