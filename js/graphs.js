@@ -82,7 +82,7 @@ function startUp()
         var options_new = jQuery.extend(true, {}, default_chart_options);
         options_new['series'] = [
             { name: 'Newly monkeypox cases in Germany', type: 'bar', data: xy_new_cases },
-            { name: 'Newly monkeypox cases in Germany (7-day average)', type: 'line', data: xy_new_cases_mean }
+            { name: '7-day average', type: 'line', data: xy_new_cases_mean }
         ];
         options_new['yaxis']['title']['text'] = 'New cases';
         options_new['colors'] = ['#269ffb', '#ff0000'];
@@ -151,7 +151,7 @@ function updateList()
         data = $.csv.toArrays(rawdata);
         list_src = "<table>";
         for ( var i = 2; i < data.length; ++i )
-            list_src += "<tr><td>" + data[i][0] + ":</td><td>" + data[i][1] + "</td></tr>\n";
+            list_src += "<tr><td>" + data[i][0] + "</td><td>" + data[i][1] + "</td></tr>\n";
         list_src += "</table>";
         $("#casesByRegion").html(list_src);
     }, dataType='text');
