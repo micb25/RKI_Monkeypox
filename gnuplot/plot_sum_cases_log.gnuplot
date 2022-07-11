@@ -1,4 +1,4 @@
-# load "template.gnuplot"
+load "template.gnuplot"
 
 set output '../plots_de/plot_sum_cases_log.png'
 
