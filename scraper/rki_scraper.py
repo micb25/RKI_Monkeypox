@@ -8,7 +8,7 @@ from datetime import date
 class RKI_Monkeypox_Scraper:
     def __init__(self):
         self.URL = 'https://www.rki.de/DE/Content/InfAZ/A/Affenpocken/Ausbruch-2022-Situation-Deutschland.html'
-        self.pattern = re.compile(r"stand ([0-9]{1,2})\.([0-9]{1,2})\.([0-9]{2,4})\s{1,}sind\s{1,}([0-9]{1,})\s{1,}affenpocken")
+        self.pattern = re.compile(r"stand ([0-9]{1,2})\.([0-9]{1,2})\.([0-9]{2,4})\s{1,}sind\s{1,}([0-9\.]{1,})\s{1,}affenpocken")
         self.date = None
         self.result = None
         
@@ -19,7 +19,7 @@ class RKI_Monkeypox_Scraper:
                 pm = self.pattern.findall(r.text.lower())
                 if pm is not None:
                     self.date = date(int(pm[0][2]), int(pm[0][1]), int(pm[0][0]))
-                    self.result = int(pm[0][3])
+                    self.result = int(pm[0][3].replace('.', ''))
                     return    
         except:
             pass
