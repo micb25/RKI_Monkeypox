@@ -24,7 +24,7 @@ set label 1 at graph 0.50, 0.95 "{/Linux-Libertine-O-Bold*1.2 Summe der gemeldet
 set label 2 at graph 0.50, 0.90 "{/*0.75 (logarithmische Darstellung; Quelle: Robert Koch-Institut)}" center textcolor ls 0
 
 plot  \
-  "../data/RKI_Monkeypox_processed.csv" using 1:2 with linespoints ls 1 notitle
+  "../data/RKI_Monkeypox.csv" using 1:2 with linespoints ls 1 notitle
 
 ##################################### English
 
@@ -35,4 +35,4 @@ set label 1 at graph 0.50, 0.95 "{/Linux-Libertine-O-Bold*1.2 Sum of reported mo
 set label 2 at graph 0.50, 0.90 "{/*0.75 (logarithmic graph; source: Robert Koch Institute)}" center textcolor ls 0
 
 plot  \
-  "../data/RKI_Monkeypox_processed.csv" using 1:2 with linespoints ls 1 notitle
+  "../data/RKI_Monkeypox.csv" using 1:2 with linespoints ls 1 notitle
