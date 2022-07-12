@@ -29,8 +29,8 @@ class RKI_Monkeypox_Scraper:
         
         
 class RKI_Monkeypox_CSV:
-    def __init__(self, csv_file='RKI_Monkeypox.csv', verbose=False):
-        self.CSV = os.path.dirname(os.path.realpath(__file__)) + os.sep + '..' + os.sep + 'data' + os.sep + csv_file
+    def __init__(self, verbose=False):
+        self.CSV = os.path.dirname(os.path.realpath(__file__)) + os.sep + '..' + os.sep + 'data' + os.sep + 'RKI_Monkeypox.csv'
         self.load_CSV()
         self.scraper = RKI_Monkeypox_Scraper()
         self.verbose = verbose

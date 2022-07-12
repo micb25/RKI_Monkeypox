@@ -9,7 +9,6 @@ from rki_scraper import RKI_Monkeypox_CSV
 class RKI_Monkeypox_Processing:
     def __init__(self):
         self.CSV = RKI_Monkeypox_CSV()
-        self.CSV_States = RKI_Monkeypox_CSV(csv_file='RKI_Monkeypox_processed_states.csv')
         self.pre_days = 7
         self.filename = os.path.dirname(os.path.realpath(__file__)) + os.sep + '..' + os.sep + 'data' + os.sep + 'RKI_Monkeypox_processed.csv'
         # population of Germany(2021-12-31)
@@ -28,8 +27,8 @@ class RKI_Monkeypox_Processing:
         
     def process(self):
         # generates a date range 
-        min_date = min(self.CSV.df['date'].min(), self.CSV_States.df['date'].min()) - pd.Timedelta(self.pre_days, unit='d')
-        max_date = max(self.CSV.df['date'].max(), self.CSV_States.df['date'].max())
+        min_date = self.CSV.df['date'].min() - pd.Timedelta(self.pre_days, unit='d')
+        max_date = self.CSV.df['date'].max()
         date_range = max_date - min_date
         dr = pd.date_range(min_date, periods=date_range.days + 1, freq='d')
         
@@ -45,8 +44,6 @@ class RKI_Monkeypox_Processing:
         for i, row in self.df.iterrows():
             if row['date'] in self.CSV.df['date'].values:
                 sum_cases = self.CSV.df.loc[self.CSV.df['date'] == row['date']]['total_cases']
-            elif row['date'] in self.CSV_States.df['date'].values:
-                sum_cases = self.CSV_States.df.loc[self.CSV_States.df['date'] == row['date']]['total']
             self.df.at[i, 'total_cases'] = sum_cases
         self.df['total_cases'] = self.df['total_cases'].astype(int)
         
