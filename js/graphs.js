@@ -141,7 +141,7 @@ function startUp()
 
         iso_date = data[data.length-1][0];
         $("#LastUpdate").text(iso_date);
-        updateList();
+        // updateList();
     }, dataType='text');
 }
 
