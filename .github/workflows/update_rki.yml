@@ -26,18 +26,33 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests pandas
-      - name: scrape RKI data
-        run: cd scraper && env python3 ./rki_scraper.py && env python3 ./rki_processing.py && cd ../
-      - name: run gnuplot
-        run: cd gnuplot/ && gnuplot plot_sum_cases.gnuplot && gnuplot plot_sum_cases_log.gnuplot && gnuplot plot_num_cases.gnuplot && gnuplot plot_num_cases_log.gnuplot && gnuplot plot_incidence.gnuplot && gnuplot plot_7d_incidence.gnuplot && cd ../
-      - name: Commit files
+      - name: scrape and process RKI data
+        run: |
+          cd scraper
+          env python3 ./rki_scraper.py
+          env python3 ./rki_processing.py
+          cd ../
+      - name: update graphs
+        run: |
+          cd gnuplot/ 
+          gnuplot plot_sum_cases.gnuplot
+          gnuplot plot_sum_cases_log.gnuplot
+          gnuplot plot_num_cases.gnuplot
+          gnuplot plot_num_cases_log.gnuplot
+          gnuplot plot_incidence.gnuplot
+          gnuplot plot_7d_incidence.gnuplot
+          gnuplot plot_states.gnuplot
+          gnuplot plot_states_incidence.gnuplot
+          gnuplot plot_age_groups.gnuplot
+          cd ../
+      - name: commit files
         run: |
           git config --local user.name  ${{ github.actor }}
           git add ./data/*.csv
           git add ./plots_de/*.png
           git add ./plots_en/*.png
           git diff-index --quiet HEAD || git commit -m "daily RKI update and processing"
-      - name: Push changes
+      - name: push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

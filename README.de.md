@@ -26,6 +26,8 @@ Dieses Repository sammelt automatisiert die aktuellen Meldezahlen zum Affenpocke
 
 ![](plots_de/plot_age_groups.png)
 
+![](plots_de/plot_incidence_states.png)
+
 ![](plots_de/plot_states.png)
 
 ![](plots_de/plot_num_cases_log.png)

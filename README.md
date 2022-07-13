@@ -26,6 +26,8 @@ This repository automatically scrapes and collects the current case numbers for 
 
 ![](plots_en/plot_age_groups.png)
 
+![](plots_en/plot_incidence_states.png)
+
 ![](plots_en/plot_states.png)
 
 ![](plots_en/plot_num_cases_log.png)

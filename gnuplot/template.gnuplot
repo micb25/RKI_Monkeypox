@@ -47,3 +47,77 @@ filter_neg(x)=(x>=0)?(x):(1/0)
 
 set timefmt "%Y-%m-%d"
 set datafile separator ","
+
+# static data
+
+# population data taken from
+# https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-nichtdeutsch-laender.html;jsessionid=1E8FEA66BF8B3DE3DC6DF68A51B153BA.live722?view=main[Print]
+
+NUM_STATES = 16
+array states_name_en[NUM_STATES]
+array states_name_de[NUM_STATES]
+array states_population[NUM_STATES]
+
+states_name_en[1]    = "Baden-Württemberg"
+states_name_de[1]    = "Baden-Württemberg"
+states_population[1] = 11124642
+
+states_name_en[2]    = "Bavaria"
+states_name_de[2]    = "Bayern"
+states_population[2] = 13176989
+
+states_name_en[3]    = "Berlin"
+states_name_de[3]    = "Berlin"
+states_population[3] = 3677472
+
+states_name_en[4]    = "Brandenburg"
+states_name_de[4]    = "Brandenburg"
+states_population[4] = 2537868
+
+states_name_en[5]    = "Bremen"
+states_name_de[5]    = "Bremen"
+states_population[5] = 676463
+
+states_name_en[6]    = "Hamburg"
+states_name_de[6]    = "Hamburg"
+states_population[6] = 1853935
+
+states_name_en[7]    = "Hesse"
+states_name_de[7]    = "Hessen"
+states_population[7] = 6295017
+
+states_name_en[8]    = "Mecklenburg-Vorpommern"
+states_name_de[8]    = "Mecklenburg-Vorpommern"
+states_population[8] = 1611160
+
+states_name_en[9]    = "Lower Saxony"
+states_name_de[9]    = "Niedersachsen"
+states_population[9] = 8027031
+
+states_name_en[10]    = "North Rhine-Westphalia"
+states_name_de[10]    = "Nordrhein-Westfalen"
+states_population[10] = 17924591
+
+states_name_en[11]    = "Rhineland-Palatinate"
+states_name_de[11]    = "Rheinland-Pfalz"
+states_population[11] = 4106485
+
+states_name_en[12]    = "Saarland"
+states_name_de[12]    = "Saarland"
+states_population[12] = 982348
+
+states_name_en[13]    = "Saxony"
+states_name_de[13]    = "Sachsen"
+states_population[13] = 4043002
+
+states_name_en[14]    = "Saxony-Anhalt"
+states_name_de[14]    = "Sachsen-Anhalt"
+states_population[14] = 2169253
+
+states_name_en[15]    = "Schleswig-Holstein"
+states_name_de[15]    = "Schleswig-Holstein"
+states_population[15] = 2922005
+
+states_name_en[16]    = "Thuringia"
+states_name_de[16]    = "Thüringen"
+states_population[16] = 2108863
