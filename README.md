@@ -2,12 +2,12 @@
 
 _[Deutsche Fassung](README.de.md)_
 
+## Dashboard
+- [https://micb25.github.io/RKI_Monkeypox](https://micb25.github.io/RKI_Monkeypox)
+
 ## Description
 
 This repository automatically scrapes and collects the current case numbers for the monkeypox outbreak in Germany from the Robert Koch Institute (RKI) website and visualizes the collected data. All diagrams in this repository are licensed under [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/).
-
-## Interactive website
-- [https://micb25.github.io/RKI_Monkeypox](https://micb25.github.io/RKI_Monkeypox)
 
 ## Data
 - [processed data (CSV)](data/RKI_Monkeypox_processed.csv)
