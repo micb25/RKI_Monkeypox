@@ -102,14 +102,14 @@ class RKI_SurvStat_Processing:
         df_temp_N = pd.read_csv(self.csv_files[-1], sep=',', decimal='.', encoding='utf-8')
         df_temp_O = pd.read_csv(self.csv_files[-2], sep=',', decimal='.', encoding='utf-8')
                 
-        I_cols = [ 'index', 'total_cases', 'total_incidence_100k', 'inc_cases' ]
+        I_cols = [ 'index', 'total_cases', 'total_incidence_1M', 'inc_cases' ]
         new_rows_I = []
         
         for i, r in df_temp_N.iterrows():
             
             new_row_I = [ r['index'], r['total'] ]
                         
-            total_incidence = r['total'] / self.pop_states[r['index']] * 100_000 if r['index'] in self.pop_states and self.pop_states[r['index']] > 0 else 0.0
+            total_incidence = r['total'] / self.pop_states[r['index']] * 1_000_000 if r['index'] in self.pop_states and self.pop_states[r['index']] > 0 else 0.0
             new_cases = r['total'] - df_temp_O.iloc[i]['total'] if df_temp_O.iloc[i]['index'] == r['index'] else 0
             
             new_row_I.append( total_incidence )
@@ -119,7 +119,7 @@ class RKI_SurvStat_Processing:
         
         self.dfI = pd.DataFrame(new_rows_I, columns=I_cols)        
         self.dfI = self.dfI.convert_dtypes()
-        self.dfI['total_incidence_100k'] = self.dfI['total_incidence_100k'].astype(float)
+        self.dfI['total_incidence_1M'] = self.dfI['total_incidence_1M'].astype(float)
         
        
 if __name__ == "__main__":

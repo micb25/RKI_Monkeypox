@@ -44,7 +44,7 @@ class RKI_SurvStat_District_Processing:
             return
         
         # create dataframe 'states'
-        D_cols = ['district', 'population', 'total_cases', 'total_incidence_100k', 'inc_cases' ]
+        D_cols = ['district', 'population', 'total_cases', 'total_incidence_1M', 'inc_cases' ]
         self.dfD = pd.DataFrame([], columns=D_cols)
         
         # iterate latest data
@@ -63,13 +63,13 @@ class RKI_SurvStat_District_Processing:
             
             new_cases = r['gesamt'] - dfO.iloc[i]['gesamt'] if dfO.iloc[i]['index'] == r['index'] else 0            
             pop = self.district_data[ r['index'] ]['pop'] if r['index'] in self.district_data else 0            
-            total_incidence = r['gesamt'] / pop * 100000 if pop > 0 else 0.0
+            total_incidence = r['gesamt'] / pop * 1_000_000 if pop > 0 else 0.0
             
             row_D.append( [ r['index'], pop, r['gesamt'], total_incidence, new_cases ] )
         
         self.dfD = pd.concat([self.dfD, pd.DataFrame(row_D, columns=D_cols)])
         self.dfD = self.dfD.convert_dtypes()
-        self.dfD['total_incidence_100k'] = self.dfD['total_incidence_100k'].astype(float)
+        self.dfD['total_incidence_1M'] = self.dfD['total_incidence_1M'].astype(float)
         
        
 if __name__ == "__main__":
