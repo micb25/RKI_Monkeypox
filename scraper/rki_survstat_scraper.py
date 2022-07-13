@@ -219,15 +219,17 @@ class RKI_SurvStat_Scraper:
                 self.df = pd.DataFrame(columns=cols)
                 
                 # get rows
+                new_data_rows = []
                 data_rows = table.find_elements('xpath', ".//tr[not(contains(@class, 'ResultMinorHeader')) and not(contains(@class, 'ResultMainHeader'))]")
                 for r in data_rows:
                     row_elements = r.find_elements('xpath', './/td')
                     new_row = [row_elements[0].text]
                     for i in range(1, len(row_elements)):
                         str_value = row_elements[i].text
-                        new_row.append(float(str_value) if str_value != '' else 0.0)                    
-                    self.df = pd.concat([self.df, pd.DataFrame([new_row], columns=cols)])                                    
-                
+                        new_row.append(float(str_value) if str_value != '' else 0.0)
+                    new_data_rows.append(new_row)
+                    
+                self.df = pd.concat([self.df, pd.DataFrame(new_data_rows, columns=cols)])
                 self.df = self.df.convert_dtypes()
                 return True
         except:

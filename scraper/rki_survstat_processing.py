@@ -54,19 +54,24 @@ class RKI_SurvStat_Processing:
         self.dfA = pd.DataFrame([], columns=A_cols)
         
         # iterate data
+        new_rows_S = []
+        new_rows_A = []
         for csv in self.csv_files:
             df = pd.read_csv(csv, sep=',', decimal='.', encoding='utf-8')
             isodate = self.__get_iso_date(csv)
             
             # per state
             new_row_S = [isodate]
-            new_row_S.extend(list(df['total']))            
-            self.dfS = pd.concat([self.dfS, pd.DataFrame([new_row_S], columns=S_cols)])
+            new_row_S.extend(list(df['total']))
+            new_rows_S.append(new_row_S)
             
             # per age group
             new_row_A = [isodate]
             new_row_A.extend(list(df.iloc[0])[1:])
-            self.dfA = pd.concat([self.dfA, pd.DataFrame([new_row_A], columns=A_cols)])
+            new_rows_A.append(new_row_A)
+            
+        self.dfS = pd.concat([self.dfS, pd.DataFrame(new_rows_S, columns=S_cols)])
+        self.dfA = pd.concat([self.dfA, pd.DataFrame(new_rows_A, columns=A_cols)])
                 
         self.dfS = self.dfS.convert_dtypes()
         self.dfA = self.dfA.convert_dtypes()
