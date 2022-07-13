@@ -13,10 +13,32 @@ class RKI_SurvStat_Processing:
         self.date_max = self.__get_iso_date(self.csv_files[-1])
         self.dfA = None
         self.dfS = None
+        self.dfI = None
         
         self.filename_states = self.processed_data_folder + 'RKI_Monkeypox_processed_states.csv'
         self.filename_states_latest = self.processed_data_folder + 'RKI_Monkeypox_states_sum_latest.csv'
         self.filename_ag = self.processed_data_folder + 'RKI_Monkeypox_processed_age_groups.csv'
+        
+        self.pop_states = {
+            'Total': 83_237_124,
+            'Baden-Württemberg': 11_124_642,
+            'Bavaria': 13_176_989,
+            'Berlin': 3_677_472,
+            'Brandenburg': 2_537_868,
+            'Bremen': 676_463,
+            'Hamburg': 1_853_935,
+            'Hesse': 6_295_017,
+            'Mecklenburg-Vorpommern': 1_611_160,
+            'Lower Saxony': 8_027_031,
+            'North Rhine-Westphalia': 17_924_591,
+            'Rhineland-Palatinate': 4_106_485,
+            'Saarland': 982_348,
+            'Saxony': 4_043_002,
+            'Saxony-Anhalt': 2_169_253,
+            'Schleswig-Holstein': 2_922_005,
+            'Thuringia': 2_108_863,
+            'Unknown': 0
+        }
                 
         
     def __get_csv_files(self):
@@ -32,12 +54,12 @@ class RKI_SurvStat_Processing:
             self.dfS.to_csv(self.filename_states, sep=',', decimal='.', encoding='utf-8', float_format='%.0f', index=False)
         if self.dfA is not None:
             self.dfA.to_csv(self.filename_ag, sep=',', decimal='.', encoding='utf-8', float_format='%.0f', index=False)
-        if len(self.csv_files) > 0:
-            os.system('cp {} {}'.format(self.csv_files[-1], self.filename_states_latest))
+        if self.dfI is not None:
+            self.dfI.to_csv(self.filename_states_latest, sep=',', decimal='.', encoding='utf-8', float_format='%.4f', index=False)
     
     
     def process(self):
-        if len(self.csv_files) < 1:
+        if len(self.csv_files) < 2:
             return
         
         # read the first CSV file
@@ -75,6 +97,29 @@ class RKI_SurvStat_Processing:
                 
         self.dfS = self.dfS.convert_dtypes()
         self.dfA = self.dfA.convert_dtypes()
+        
+        # incidence per state
+        df_temp_N = pd.read_csv(self.csv_files[-1], sep=',', decimal='.', encoding='utf-8')
+        df_temp_O = pd.read_csv(self.csv_files[-2], sep=',', decimal='.', encoding='utf-8')
+                
+        I_cols = [ 'index', 'total_cases', 'total_incidence_100k', 'inc_cases' ]
+        new_rows_I = []
+        
+        for i, r in df_temp_N.iterrows():
+            
+            new_row_I = [ r['index'], r['total'] ]
+                        
+            total_incidence = r['total'] / self.pop_states[r['index']] * 100_000 if r['index'] in self.pop_states and self.pop_states[r['index']] > 0 else 0.0
+            new_cases = r['total'] - df_temp_O.iloc[i]['total'] if df_temp_O.iloc[i]['index'] == r['index'] else 0
+            
+            new_row_I.append( total_incidence )
+            new_row_I.append(new_cases)           
+            
+            new_rows_I.append( new_row_I )
+        
+        self.dfI = pd.DataFrame(new_rows_I, columns=I_cols)        
+        self.dfI = self.dfI.convert_dtypes()
+        self.dfI['total_incidence_100k'] = self.dfI['total_incidence_100k'].astype(float)
         
        
 if __name__ == "__main__":
