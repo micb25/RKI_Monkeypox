@@ -15,6 +15,7 @@ class RKI_SurvStat_Processing:
         self.dfS = None
         
         self.filename_states = self.processed_data_folder + 'RKI_Monkeypox_processed_states.csv'
+        self.filename_states_latest = self.processed_data_folder + 'RKI_Monkeypox_states_sum_latest.csv'
         self.filename_ag = self.processed_data_folder + 'RKI_Monkeypox_processed_age_groups.csv'
                 
         
@@ -31,6 +32,8 @@ class RKI_SurvStat_Processing:
             self.dfS.to_csv(self.filename_states, sep=',', decimal='.', encoding='utf-8', float_format='%.0f', index=False)
         if self.dfA is not None:
             self.dfA.to_csv(self.filename_ag, sep=',', decimal='.', encoding='utf-8', float_format='%.0f', index=False)
+        if len(self.csv_files) > 0:
+            os.system('cp {} {}'.format(self.csv_files[-1], self.filename_states_latest))
     
     
     def process(self):
