@@ -1,0 +1,3340 @@
+{
+  "objectIdFieldName" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdFieldName" : "", 
+  "geometryType" : "esriGeometryPolygon", 
+  "spatialReference" : {
+    "wkid" : 102100, 
+    "latestWkid" : 3857
+  }, 
+  "fields" : [
+    {
+      "name" : "county", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Landkreis", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 256, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "AGS", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "AGS", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 5, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "BL_ID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Bundesland ID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 256, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "EWZ", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "EWZ", 
+      "sqlType" : "sqlTypeOther", 
+      "domain" : null
+    }
+  ], 
+  "features" : [
+    {
+      "attributes" : {
+        "county" : "SK Flensburg", 
+        "AGS" : "01001", 
+        "BL_ID" : "1", 
+        "EWZ" : 90164
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Kiel", 
+        "AGS" : "01002", 
+        "BL_ID" : "1", 
+        "EWZ" : 246794
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Lübeck", 
+        "AGS" : "01003", 
+        "BL_ID" : "1", 
+        "EWZ" : 216530
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Neumünster", 
+        "AGS" : "01004", 
+        "BL_ID" : "1", 
+        "EWZ" : 80196
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Dithmarschen", 
+        "AGS" : "01051", 
+        "BL_ID" : "1", 
+        "EWZ" : 133193
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Herzogtum Lauenburg", 
+        "AGS" : "01053", 
+        "BL_ID" : "1", 
+        "EWZ" : 198019
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Nordfriesland", 
+        "AGS" : "01054", 
+        "BL_ID" : "1", 
+        "EWZ" : 165951
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ostholstein", 
+        "AGS" : "01055", 
+        "BL_ID" : "1", 
+        "EWZ" : 200539
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Pinneberg", 
+        "AGS" : "01056", 
+        "BL_ID" : "1", 
+        "EWZ" : 316103
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Plön", 
+        "AGS" : "01057", 
+        "BL_ID" : "1", 
+        "EWZ" : 128686
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rendsburg-Eckernförde", 
+        "AGS" : "01058", 
+        "BL_ID" : "1", 
+        "EWZ" : 274098
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Schleswig-Flensburg", 
+        "AGS" : "01059", 
+        "BL_ID" : "1", 
+        "EWZ" : 201156
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Segeberg", 
+        "AGS" : "01060", 
+        "BL_ID" : "1", 
+        "EWZ" : 277175
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Steinburg", 
+        "AGS" : "01061", 
+        "BL_ID" : "1", 
+        "EWZ" : 131013
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Stormarn", 
+        "AGS" : "01062", 
+        "BL_ID" : "1", 
+        "EWZ" : 244156
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Hamburg", 
+        "AGS" : "02000", 
+        "BL_ID" : "2", 
+        "EWZ" : 1847253
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Braunschweig", 
+        "AGS" : "03101", 
+        "BL_ID" : "3", 
+        "EWZ" : 249406
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Salzgitter", 
+        "AGS" : "03102", 
+        "BL_ID" : "3", 
+        "EWZ" : 104291
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Wolfsburg", 
+        "AGS" : "03103", 
+        "BL_ID" : "3", 
+        "EWZ" : 124371
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Gifhorn", 
+        "AGS" : "03151", 
+        "BL_ID" : "3", 
+        "EWZ" : 176523
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Goslar", 
+        "AGS" : "03153", 
+        "BL_ID" : "3", 
+        "EWZ" : 136292
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Helmstedt", 
+        "AGS" : "03154", 
+        "BL_ID" : "3", 
+        "EWZ" : 91297
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Northeim", 
+        "AGS" : "03155", 
+        "BL_ID" : "3", 
+        "EWZ" : 132285
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Peine", 
+        "AGS" : "03157", 
+        "BL_ID" : "3", 
+        "EWZ" : 134801
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Wolfenbüttel", 
+        "AGS" : "03158", 
+        "BL_ID" : "3", 
+        "EWZ" : 119622
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Göttingen", 
+        "AGS" : "03159", 
+        "BL_ID" : "3", 
+        "EWZ" : 326041
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "Region Hannover", 
+        "AGS" : "03241", 
+        "BL_ID" : "3", 
+        "EWZ" : 1157115
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Diepholz", 
+        "AGS" : "03251", 
+        "BL_ID" : "3", 
+        "EWZ" : 217089
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Hameln-Pyrmont", 
+        "AGS" : "03252", 
+        "BL_ID" : "3", 
+        "EWZ" : 148549
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Hildesheim", 
+        "AGS" : "03254", 
+        "BL_ID" : "3", 
+        "EWZ" : 275817
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Holzminden", 
+        "AGS" : "03255", 
+        "BL_ID" : "3", 
+        "EWZ" : 70458
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Nienburg (Weser)", 
+        "AGS" : "03256", 
+        "BL_ID" : "3", 
+        "EWZ" : 121390
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Schaumburg", 
+        "AGS" : "03257", 
+        "BL_ID" : "3", 
+        "EWZ" : 157820
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Celle", 
+        "AGS" : "03351", 
+        "BL_ID" : "3", 
+        "EWZ" : 179011
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Cuxhaven", 
+        "AGS" : "03352", 
+        "BL_ID" : "3", 
+        "EWZ" : 198038
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Harburg", 
+        "AGS" : "03353", 
+        "BL_ID" : "3", 
+        "EWZ" : 254431
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Lüchow-Dannenberg", 
+        "AGS" : "03354", 
+        "BL_ID" : "3", 
+        "EWZ" : 48412
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Lüneburg", 
+        "AGS" : "03355", 
+        "BL_ID" : "3", 
+        "EWZ" : 184139
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Osterholz", 
+        "AGS" : "03356", 
+        "BL_ID" : "3", 
+        "EWZ" : 113928
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rotenburg (Wümme)", 
+        "AGS" : "03357", 
+        "BL_ID" : "3", 
+        "EWZ" : 163782
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Heidekreis", 
+        "AGS" : "03358", 
+        "BL_ID" : "3", 
+        "EWZ" : 140673
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Stade", 
+        "AGS" : "03359", 
+        "BL_ID" : "3", 
+        "EWZ" : 204512
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Uelzen", 
+        "AGS" : "03360", 
+        "BL_ID" : "3", 
+        "EWZ" : 92389
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Verden", 
+        "AGS" : "03361", 
+        "BL_ID" : "3", 
+        "EWZ" : 137133
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Delmenhorst", 
+        "AGS" : "03401", 
+        "BL_ID" : "3", 
+        "EWZ" : 77559
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Emden", 
+        "AGS" : "03402", 
+        "BL_ID" : "3", 
+        "EWZ" : 49913
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Oldenburg", 
+        "AGS" : "03403", 
+        "BL_ID" : "3", 
+        "EWZ" : 169077
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Osnabrück", 
+        "AGS" : "03404", 
+        "BL_ID" : "3", 
+        "EWZ" : 165251
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Wilhelmshaven", 
+        "AGS" : "03405", 
+        "BL_ID" : "3", 
+        "EWZ" : 76089
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ammerland", 
+        "AGS" : "03451", 
+        "BL_ID" : "3", 
+        "EWZ" : 124859
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Aurich", 
+        "AGS" : "03452", 
+        "BL_ID" : "3", 
+        "EWZ" : 189694
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Cloppenburg", 
+        "AGS" : "03453", 
+        "BL_ID" : "3", 
+        "EWZ" : 170682
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Emsland", 
+        "AGS" : "03454", 
+        "BL_ID" : "3", 
+        "EWZ" : 326954
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Friesland", 
+        "AGS" : "03455", 
+        "BL_ID" : "3", 
+        "EWZ" : 98704
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Grafschaft Bentheim", 
+        "AGS" : "03456", 
+        "BL_ID" : "3", 
+        "EWZ" : 137162
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Leer", 
+        "AGS" : "03457", 
+        "BL_ID" : "3", 
+        "EWZ" : 170756
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Oldenburg", 
+        "AGS" : "03458", 
+        "BL_ID" : "3", 
+        "EWZ" : 130890
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Osnabrück", 
+        "AGS" : "03459", 
+        "BL_ID" : "3", 
+        "EWZ" : 358080
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Vechta", 
+        "AGS" : "03460", 
+        "BL_ID" : "3", 
+        "EWZ" : 142814
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Wesermarsch", 
+        "AGS" : "03461", 
+        "BL_ID" : "3", 
+        "EWZ" : 88583
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Wittmund", 
+        "AGS" : "03462", 
+        "BL_ID" : "3", 
+        "EWZ" : 56926
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Bremen", 
+        "AGS" : "04011", 
+        "BL_ID" : "4", 
+        "EWZ" : 567559
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Bremerhaven", 
+        "AGS" : "04012", 
+        "BL_ID" : "4", 
+        "EWZ" : 113643
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Düsseldorf", 
+        "AGS" : "05111", 
+        "BL_ID" : "5", 
+        "EWZ" : 621877
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Duisburg", 
+        "AGS" : "05112", 
+        "BL_ID" : "5", 
+        "EWZ" : 498686
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Essen", 
+        "AGS" : "05113", 
+        "BL_ID" : "5", 
+        "EWZ" : 582760
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Krefeld", 
+        "AGS" : "05114", 
+        "BL_ID" : "5", 
+        "EWZ" : 227417
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Mönchengladbach", 
+        "AGS" : "05116", 
+        "BL_ID" : "5", 
+        "EWZ" : 261034
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Mülheim a.d.Ruhr", 
+        "AGS" : "05117", 
+        "BL_ID" : "5", 
+        "EWZ" : 170632
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Oberhausen", 
+        "AGS" : "05119", 
+        "BL_ID" : "5", 
+        "EWZ" : 210764
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Remscheid", 
+        "AGS" : "05120", 
+        "BL_ID" : "5", 
+        "EWZ" : 111338
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Solingen", 
+        "AGS" : "05122", 
+        "BL_ID" : "5", 
+        "EWZ" : 159245
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Wuppertal", 
+        "AGS" : "05124", 
+        "BL_ID" : "5", 
+        "EWZ" : 355100
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Kleve", 
+        "AGS" : "05154", 
+        "BL_ID" : "5", 
+        "EWZ" : 312465
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Mettmann", 
+        "AGS" : "05158", 
+        "BL_ID" : "5", 
+        "EWZ" : 485570
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rhein-Kreis Neuss", 
+        "AGS" : "05162", 
+        "BL_ID" : "5", 
+        "EWZ" : 451730
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Viersen", 
+        "AGS" : "05166", 
+        "BL_ID" : "5", 
+        "EWZ" : 298863
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Wesel", 
+        "AGS" : "05170", 
+        "BL_ID" : "5", 
+        "EWZ" : 459976
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Bonn", 
+        "AGS" : "05314", 
+        "BL_ID" : "5", 
+        "EWZ" : 329673
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Köln", 
+        "AGS" : "05315", 
+        "BL_ID" : "5", 
+        "EWZ" : 1087863
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Leverkusen", 
+        "AGS" : "05316", 
+        "BL_ID" : "5", 
+        "EWZ" : 163729
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "StadtRegion Aachen", 
+        "AGS" : "05334", 
+        "BL_ID" : "5", 
+        "EWZ" : 557026
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Düren", 
+        "AGS" : "05358", 
+        "BL_ID" : "5", 
+        "EWZ" : 264638
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rhein-Erft-Kreis", 
+        "AGS" : "05362", 
+        "BL_ID" : "5", 
+        "EWZ" : 470615
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Euskirchen", 
+        "AGS" : "05366", 
+        "BL_ID" : "5", 
+        "EWZ" : 193656
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Heinsberg", 
+        "AGS" : "05370", 
+        "BL_ID" : "5", 
+        "EWZ" : 255555
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Oberbergischer Kreis", 
+        "AGS" : "05374", 
+        "BL_ID" : "5", 
+        "EWZ" : 272057
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rheinisch-Bergischer Kreis", 
+        "AGS" : "05378", 
+        "BL_ID" : "5", 
+        "EWZ" : 283271
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rhein-Sieg-Kreis", 
+        "AGS" : "05382", 
+        "BL_ID" : "5", 
+        "EWZ" : 600764
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Bottrop", 
+        "AGS" : "05512", 
+        "BL_ID" : "5", 
+        "EWZ" : 117565
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Gelsenkirchen", 
+        "AGS" : "05513", 
+        "BL_ID" : "5", 
+        "EWZ" : 259645
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Münster", 
+        "AGS" : "05515", 
+        "BL_ID" : "5", 
+        "EWZ" : 315293
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Borken", 
+        "AGS" : "05554", 
+        "BL_ID" : "5", 
+        "EWZ" : 371339
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Coesfeld", 
+        "AGS" : "05558", 
+        "BL_ID" : "5", 
+        "EWZ" : 220586
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Recklinghausen", 
+        "AGS" : "05562", 
+        "BL_ID" : "5", 
+        "EWZ" : 614137
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Steinfurt", 
+        "AGS" : "05566", 
+        "BL_ID" : "5", 
+        "EWZ" : 448220
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Warendorf", 
+        "AGS" : "05570", 
+        "BL_ID" : "5", 
+        "EWZ" : 277840
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Bielefeld", 
+        "AGS" : "05711", 
+        "BL_ID" : "5", 
+        "EWZ" : 334195
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Gütersloh", 
+        "AGS" : "05754", 
+        "BL_ID" : "5", 
+        "EWZ" : 364938
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Herford", 
+        "AGS" : "05758", 
+        "BL_ID" : "5", 
+        "EWZ" : 250578
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Höxter", 
+        "AGS" : "05762", 
+        "BL_ID" : "5", 
+        "EWZ" : 140251
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Lippe", 
+        "AGS" : "05766", 
+        "BL_ID" : "5", 
+        "EWZ" : 347514
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Minden-Lübbecke", 
+        "AGS" : "05770", 
+        "BL_ID" : "5", 
+        "EWZ" : 310409
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Paderborn", 
+        "AGS" : "05774", 
+        "BL_ID" : "5", 
+        "EWZ" : 307839
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Bochum", 
+        "AGS" : "05911", 
+        "BL_ID" : "5", 
+        "EWZ" : 365587
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Dortmund", 
+        "AGS" : "05913", 
+        "BL_ID" : "5", 
+        "EWZ" : 588250
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Hagen", 
+        "AGS" : "05914", 
+        "BL_ID" : "5", 
+        "EWZ" : 188686
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Hamm", 
+        "AGS" : "05915", 
+        "BL_ID" : "5", 
+        "EWZ" : 179916
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Herne", 
+        "AGS" : "05916", 
+        "BL_ID" : "5", 
+        "EWZ" : 156449
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ennepe-Ruhr-Kreis", 
+        "AGS" : "05954", 
+        "BL_ID" : "5", 
+        "EWZ" : 324106
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Hochsauerlandkreis", 
+        "AGS" : "05958", 
+        "BL_ID" : "5", 
+        "EWZ" : 259777
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Märkischer Kreis", 
+        "AGS" : "05962", 
+        "BL_ID" : "5", 
+        "EWZ" : 410222
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Olpe", 
+        "AGS" : "05966", 
+        "BL_ID" : "5", 
+        "EWZ" : 133955
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Siegen-Wittgenstein", 
+        "AGS" : "05970", 
+        "BL_ID" : "5", 
+        "EWZ" : 276944
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Soest", 
+        "AGS" : "05974", 
+        "BL_ID" : "5", 
+        "EWZ" : 301785
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Unna", 
+        "AGS" : "05978", 
+        "BL_ID" : "5", 
+        "EWZ" : 394891
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Darmstadt", 
+        "AGS" : "06411", 
+        "BL_ID" : "6", 
+        "EWZ" : 159878
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Frankfurt am Main", 
+        "AGS" : "06412", 
+        "BL_ID" : "6", 
+        "EWZ" : 763380
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Offenbach", 
+        "AGS" : "06413", 
+        "BL_ID" : "6", 
+        "EWZ" : 130280
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Wiesbaden", 
+        "AGS" : "06414", 
+        "BL_ID" : "6", 
+        "EWZ" : 278474
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bergstraße", 
+        "AGS" : "06431", 
+        "BL_ID" : "6", 
+        "EWZ" : 270340
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Darmstadt-Dieburg", 
+        "AGS" : "06432", 
+        "BL_ID" : "6", 
+        "EWZ" : 297844
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Groß-Gerau", 
+        "AGS" : "06433", 
+        "BL_ID" : "6", 
+        "EWZ" : 275726
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Hochtaunuskreis", 
+        "AGS" : "06434", 
+        "BL_ID" : "6", 
+        "EWZ" : 236914
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Main-Kinzig-Kreis", 
+        "AGS" : "06435", 
+        "BL_ID" : "6", 
+        "EWZ" : 420552
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Main-Taunus-Kreis", 
+        "AGS" : "06436", 
+        "BL_ID" : "6", 
+        "EWZ" : 238558
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Odenwaldkreis", 
+        "AGS" : "06437", 
+        "BL_ID" : "6", 
+        "EWZ" : 96703
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Offenbach", 
+        "AGS" : "06438", 
+        "BL_ID" : "6", 
+        "EWZ" : 355813
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rheingau-Taunus-Kreis", 
+        "AGS" : "06439", 
+        "BL_ID" : "6", 
+        "EWZ" : 187160
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Wetteraukreis", 
+        "AGS" : "06440", 
+        "BL_ID" : "6", 
+        "EWZ" : 308339
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Gießen", 
+        "AGS" : "06531", 
+        "BL_ID" : "6", 
+        "EWZ" : 270688
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Lahn-Dill-Kreis", 
+        "AGS" : "06532", 
+        "BL_ID" : "6", 
+        "EWZ" : 253319
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Limburg-Weilburg", 
+        "AGS" : "06533", 
+        "BL_ID" : "6", 
+        "EWZ" : 171912
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Marburg-Biedenkopf", 
+        "AGS" : "06534", 
+        "BL_ID" : "6", 
+        "EWZ" : 247084
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Vogelsbergkreis", 
+        "AGS" : "06535", 
+        "BL_ID" : "6", 
+        "EWZ" : 105643
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Kassel", 
+        "AGS" : "06611", 
+        "BL_ID" : "6", 
+        "EWZ" : 202137
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Fulda", 
+        "AGS" : "06631", 
+        "BL_ID" : "6", 
+        "EWZ" : 223145
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Hersfeld-Rotenburg", 
+        "AGS" : "06632", 
+        "BL_ID" : "6", 
+        "EWZ" : 120719
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Kassel", 
+        "AGS" : "06633", 
+        "BL_ID" : "6", 
+        "EWZ" : 236764
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Schwalm-Eder-Kreis", 
+        "AGS" : "06634", 
+        "BL_ID" : "6", 
+        "EWZ" : 179673
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Waldeck-Frankenberg", 
+        "AGS" : "06635", 
+        "BL_ID" : "6", 
+        "EWZ" : 156406
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Werra-Meißner-Kreis", 
+        "AGS" : "06636", 
+        "BL_ID" : "6", 
+        "EWZ" : 100629
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Koblenz", 
+        "AGS" : "07111", 
+        "BL_ID" : "7", 
+        "EWZ" : 114052
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ahrweiler", 
+        "AGS" : "07131", 
+        "BL_ID" : "7", 
+        "EWZ" : 130086
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Altenkirchen", 
+        "AGS" : "07132", 
+        "BL_ID" : "7", 
+        "EWZ" : 128805
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bad Kreuznach", 
+        "AGS" : "07133", 
+        "BL_ID" : "7", 
+        "EWZ" : 158345
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Birkenfeld", 
+        "AGS" : "07134", 
+        "BL_ID" : "7", 
+        "EWZ" : 80951
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Cochem-Zell", 
+        "AGS" : "07135", 
+        "BL_ID" : "7", 
+        "EWZ" : 61375
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Mayen-Koblenz", 
+        "AGS" : "07137", 
+        "BL_ID" : "7", 
+        "EWZ" : 214434
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Neuwied", 
+        "AGS" : "07138", 
+        "BL_ID" : "7", 
+        "EWZ" : 182811
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rhein-Hunsrück-Kreis", 
+        "AGS" : "07140", 
+        "BL_ID" : "7", 
+        "EWZ" : 103163
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rhein-Lahn-Kreis", 
+        "AGS" : "07141", 
+        "BL_ID" : "7", 
+        "EWZ" : 122297
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Westerwaldkreis", 
+        "AGS" : "07143", 
+        "BL_ID" : "7", 
+        "EWZ" : 201904
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Trier", 
+        "AGS" : "07211", 
+        "BL_ID" : "7", 
+        "EWZ" : 111528
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bernkastel-Wittlich", 
+        "AGS" : "07231", 
+        "BL_ID" : "7", 
+        "EWZ" : 112483
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bitburg-Prüm", 
+        "AGS" : "07232", 
+        "BL_ID" : "7", 
+        "EWZ" : 99058
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Vulkaneifel", 
+        "AGS" : "07233", 
+        "BL_ID" : "7", 
+        "EWZ" : 60646
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Trier-Saarburg", 
+        "AGS" : "07235", 
+        "BL_ID" : "7", 
+        "EWZ" : 149398
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Frankenthal", 
+        "AGS" : "07311", 
+        "BL_ID" : "7", 
+        "EWZ" : 48762
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Kaiserslautern", 
+        "AGS" : "07312", 
+        "BL_ID" : "7", 
+        "EWZ" : 100030
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Landau i.d.Pfalz", 
+        "AGS" : "07313", 
+        "BL_ID" : "7", 
+        "EWZ" : 46881
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Ludwigshafen", 
+        "AGS" : "07314", 
+        "BL_ID" : "7", 
+        "EWZ" : 172253
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Mainz", 
+        "AGS" : "07315", 
+        "BL_ID" : "7", 
+        "EWZ" : 218578
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Neustadt a.d.Weinstraße", 
+        "AGS" : "07316", 
+        "BL_ID" : "7", 
+        "EWZ" : 53264
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Pirmasens", 
+        "AGS" : "07317", 
+        "BL_ID" : "7", 
+        "EWZ" : 40231
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Speyer", 
+        "AGS" : "07318", 
+        "BL_ID" : "7", 
+        "EWZ" : 50561
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Worms", 
+        "AGS" : "07319", 
+        "BL_ID" : "7", 
+        "EWZ" : 83542
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Zweibrücken", 
+        "AGS" : "07320", 
+        "BL_ID" : "7", 
+        "EWZ" : 34193
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Alzey-Worms", 
+        "AGS" : "07331", 
+        "BL_ID" : "7", 
+        "EWZ" : 129687
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bad Dürkheim", 
+        "AGS" : "07332", 
+        "BL_ID" : "7", 
+        "EWZ" : 132671
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Donnersbergkreis", 
+        "AGS" : "07333", 
+        "BL_ID" : "7", 
+        "EWZ" : 75325
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Germersheim", 
+        "AGS" : "07334", 
+        "BL_ID" : "7", 
+        "EWZ" : 129013
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Kaiserslautern", 
+        "AGS" : "07335", 
+        "BL_ID" : "7", 
+        "EWZ" : 105979
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Kusel", 
+        "AGS" : "07336", 
+        "BL_ID" : "7", 
+        "EWZ" : 70219
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Südliche Weinstraße", 
+        "AGS" : "07337", 
+        "BL_ID" : "7", 
+        "EWZ" : 110521
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rhein-Pfalz-Kreis", 
+        "AGS" : "07338", 
+        "BL_ID" : "7", 
+        "EWZ" : 154609
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Mainz-Bingen", 
+        "AGS" : "07339", 
+        "BL_ID" : "7", 
+        "EWZ" : 211417
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Südwestpfalz", 
+        "AGS" : "07340", 
+        "BL_ID" : "7", 
+        "EWZ" : 94831
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Stuttgart", 
+        "AGS" : "08111", 
+        "BL_ID" : "8", 
+        "EWZ" : 635911
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Böblingen", 
+        "AGS" : "08115", 
+        "BL_ID" : "8", 
+        "EWZ" : 392807
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Esslingen", 
+        "AGS" : "08116", 
+        "BL_ID" : "8", 
+        "EWZ" : 535024
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Göppingen", 
+        "AGS" : "08117", 
+        "BL_ID" : "8", 
+        "EWZ" : 258145
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ludwigsburg", 
+        "AGS" : "08118", 
+        "BL_ID" : "8", 
+        "EWZ" : 545423
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rems-Murr-Kreis", 
+        "AGS" : "08119", 
+        "BL_ID" : "8", 
+        "EWZ" : 427248
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Heilbronn", 
+        "AGS" : "08121", 
+        "BL_ID" : "8", 
+        "EWZ" : 126592
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Heilbronn", 
+        "AGS" : "08125", 
+        "BL_ID" : "8", 
+        "EWZ" : 344456
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Hohenlohekreis", 
+        "AGS" : "08126", 
+        "BL_ID" : "8", 
+        "EWZ" : 112655
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Schwäbisch Hall", 
+        "AGS" : "08127", 
+        "BL_ID" : "8", 
+        "EWZ" : 196761
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Main-Tauber-Kreis", 
+        "AGS" : "08128", 
+        "BL_ID" : "8", 
+        "EWZ" : 132399
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Heidenheim", 
+        "AGS" : "08135", 
+        "BL_ID" : "8", 
+        "EWZ" : 132777
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ostalbkreis", 
+        "AGS" : "08136", 
+        "BL_ID" : "8", 
+        "EWZ" : 314025
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Baden-Baden", 
+        "AGS" : "08211", 
+        "BL_ID" : "8", 
+        "EWZ" : 55185
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Karlsruhe", 
+        "AGS" : "08212", 
+        "BL_ID" : "8", 
+        "EWZ" : 312060
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Karlsruhe", 
+        "AGS" : "08215", 
+        "BL_ID" : "8", 
+        "EWZ" : 445101
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rastatt", 
+        "AGS" : "08216", 
+        "BL_ID" : "8", 
+        "EWZ" : 231420
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Heidelberg", 
+        "AGS" : "08221", 
+        "BL_ID" : "8", 
+        "EWZ" : 161485
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Mannheim", 
+        "AGS" : "08222", 
+        "BL_ID" : "8", 
+        "EWZ" : 310658
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Neckar-Odenwald-Kreis", 
+        "AGS" : "08225", 
+        "BL_ID" : "8", 
+        "EWZ" : 143633
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rhein-Neckar-Kreis", 
+        "AGS" : "08226", 
+        "BL_ID" : "8", 
+        "EWZ" : 548355
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Pforzheim", 
+        "AGS" : "08231", 
+        "BL_ID" : "8", 
+        "EWZ" : 125957
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Calw", 
+        "AGS" : "08235", 
+        "BL_ID" : "8", 
+        "EWZ" : 159201
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Enzkreis", 
+        "AGS" : "08236", 
+        "BL_ID" : "8", 
+        "EWZ" : 199556
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Freudenstadt", 
+        "AGS" : "08237", 
+        "BL_ID" : "8", 
+        "EWZ" : 118243
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Freiburg i.Breisgau", 
+        "AGS" : "08311", 
+        "BL_ID" : "8", 
+        "EWZ" : 231195
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Breisgau-Hochschwarzwald", 
+        "AGS" : "08315", 
+        "BL_ID" : "8", 
+        "EWZ" : 263601
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Emmendingen", 
+        "AGS" : "08316", 
+        "BL_ID" : "8", 
+        "EWZ" : 166408
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ortenaukreis", 
+        "AGS" : "08317", 
+        "BL_ID" : "8", 
+        "EWZ" : 430953
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rottweil", 
+        "AGS" : "08325", 
+        "BL_ID" : "8", 
+        "EWZ" : 139878
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Schwarzwald-Baar-Kreis", 
+        "AGS" : "08326", 
+        "BL_ID" : "8", 
+        "EWZ" : 212506
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Tuttlingen", 
+        "AGS" : "08327", 
+        "BL_ID" : "8", 
+        "EWZ" : 140766
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Konstanz", 
+        "AGS" : "08335", 
+        "BL_ID" : "8", 
+        "EWZ" : 286305
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Lörrach", 
+        "AGS" : "08336", 
+        "BL_ID" : "8", 
+        "EWZ" : 228736
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Waldshut", 
+        "AGS" : "08337", 
+        "BL_ID" : "8", 
+        "EWZ" : 171003
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Reutlingen", 
+        "AGS" : "08415", 
+        "BL_ID" : "8", 
+        "EWZ" : 287034
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Tübingen", 
+        "AGS" : "08416", 
+        "BL_ID" : "8", 
+        "EWZ" : 228678
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Zollernalbkreis", 
+        "AGS" : "08417", 
+        "BL_ID" : "8", 
+        "EWZ" : 189363
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Ulm", 
+        "AGS" : "08421", 
+        "BL_ID" : "8", 
+        "EWZ" : 126790
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Alb-Donau-Kreis", 
+        "AGS" : "08425", 
+        "BL_ID" : "8", 
+        "EWZ" : 197076
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Biberach", 
+        "AGS" : "08426", 
+        "BL_ID" : "8", 
+        "EWZ" : 201282
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bodenseekreis", 
+        "AGS" : "08435", 
+        "BL_ID" : "8", 
+        "EWZ" : 217470
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ravensburg", 
+        "AGS" : "08436", 
+        "BL_ID" : "8", 
+        "EWZ" : 285424
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Sigmaringen", 
+        "AGS" : "08437", 
+        "BL_ID" : "8", 
+        "EWZ" : 130849
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Ingolstadt", 
+        "AGS" : "09161", 
+        "BL_ID" : "9", 
+        "EWZ" : 137392
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK München", 
+        "AGS" : "09162", 
+        "BL_ID" : "9", 
+        "EWZ" : 1484226
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Rosenheim", 
+        "AGS" : "09163", 
+        "BL_ID" : "9", 
+        "EWZ" : 63551
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Altötting", 
+        "AGS" : "09171", 
+        "BL_ID" : "9", 
+        "EWZ" : 111516
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Berchtesgadener Land", 
+        "AGS" : "09172", 
+        "BL_ID" : "9", 
+        "EWZ" : 105929
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bad Tölz-Wolfratshausen", 
+        "AGS" : "09173", 
+        "BL_ID" : "9", 
+        "EWZ" : 127917
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Dachau", 
+        "AGS" : "09174", 
+        "BL_ID" : "9", 
+        "EWZ" : 154899
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ebersberg", 
+        "AGS" : "09175", 
+        "BL_ID" : "9", 
+        "EWZ" : 143649
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Eichstätt", 
+        "AGS" : "09176", 
+        "BL_ID" : "9", 
+        "EWZ" : 132881
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Erding", 
+        "AGS" : "09177", 
+        "BL_ID" : "9", 
+        "EWZ" : 138182
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Freising", 
+        "AGS" : "09178", 
+        "BL_ID" : "9", 
+        "EWZ" : 180007
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Fürstenfeldbruck", 
+        "AGS" : "09179", 
+        "BL_ID" : "9", 
+        "EWZ" : 219311
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Garmisch-Partenkirchen", 
+        "AGS" : "09180", 
+        "BL_ID" : "9", 
+        "EWZ" : 88424
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Landsberg a.Lech", 
+        "AGS" : "09181", 
+        "BL_ID" : "9", 
+        "EWZ" : 120302
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Miesbach", 
+        "AGS" : "09182", 
+        "BL_ID" : "9", 
+        "EWZ" : 100010
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Mühldorf a.Inn", 
+        "AGS" : "09183", 
+        "BL_ID" : "9", 
+        "EWZ" : 115872
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK München", 
+        "AGS" : "09184", 
+        "BL_ID" : "9", 
+        "EWZ" : 350473
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Neuburg-Schrobenhausen", 
+        "AGS" : "09185", 
+        "BL_ID" : "9", 
+        "EWZ" : 97303
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Pfaffenhofen a.d.Ilm", 
+        "AGS" : "09186", 
+        "BL_ID" : "9", 
+        "EWZ" : 128227
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rosenheim", 
+        "AGS" : "09187", 
+        "BL_ID" : "9", 
+        "EWZ" : 261330
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Starnberg", 
+        "AGS" : "09188", 
+        "BL_ID" : "9", 
+        "EWZ" : 136667
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Traunstein", 
+        "AGS" : "09189", 
+        "BL_ID" : "9", 
+        "EWZ" : 177319
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Weilheim-Schongau", 
+        "AGS" : "09190", 
+        "BL_ID" : "9", 
+        "EWZ" : 135478
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Landshut", 
+        "AGS" : "09261", 
+        "BL_ID" : "9", 
+        "EWZ" : 73411
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Passau", 
+        "AGS" : "09262", 
+        "BL_ID" : "9", 
+        "EWZ" : 52803
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Straubing", 
+        "AGS" : "09263", 
+        "BL_ID" : "9", 
+        "EWZ" : 47791
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Deggendorf", 
+        "AGS" : "09271", 
+        "BL_ID" : "9", 
+        "EWZ" : 119478
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Freyung-Grafenau", 
+        "AGS" : "09272", 
+        "BL_ID" : "9", 
+        "EWZ" : 78362
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Kelheim", 
+        "AGS" : "09273", 
+        "BL_ID" : "9", 
+        "EWZ" : 123058
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Landshut", 
+        "AGS" : "09274", 
+        "BL_ID" : "9", 
+        "EWZ" : 159895
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Passau", 
+        "AGS" : "09275", 
+        "BL_ID" : "9", 
+        "EWZ" : 192656
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Regen", 
+        "AGS" : "09276", 
+        "BL_ID" : "9", 
+        "EWZ" : 77410
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rottal-Inn", 
+        "AGS" : "09277", 
+        "BL_ID" : "9", 
+        "EWZ" : 121502
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Straubing-Bogen", 
+        "AGS" : "09278", 
+        "BL_ID" : "9", 
+        "EWZ" : 101120
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Dingolfing-Landau", 
+        "AGS" : "09279", 
+        "BL_ID" : "9", 
+        "EWZ" : 96683
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Amberg", 
+        "AGS" : "09361", 
+        "BL_ID" : "9", 
+        "EWZ" : 42207
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Regensburg", 
+        "AGS" : "09362", 
+        "BL_ID" : "9", 
+        "EWZ" : 153094
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Weiden i.d.OPf.", 
+        "AGS" : "09363", 
+        "BL_ID" : "9", 
+        "EWZ" : 42743
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Amberg-Sulzbach", 
+        "AGS" : "09371", 
+        "BL_ID" : "9", 
+        "EWZ" : 103049
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Cham", 
+        "AGS" : "09372", 
+        "BL_ID" : "9", 
+        "EWZ" : 127998
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Neumarkt i.d.OPf.", 
+        "AGS" : "09373", 
+        "BL_ID" : "9", 
+        "EWZ" : 134573
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Neustadt a.d.Waldnaab", 
+        "AGS" : "09374", 
+        "BL_ID" : "9", 
+        "EWZ" : 94450
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Regensburg", 
+        "AGS" : "09375", 
+        "BL_ID" : "9", 
+        "EWZ" : 194070
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Schwandorf", 
+        "AGS" : "09376", 
+        "BL_ID" : "9", 
+        "EWZ" : 147872
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Tirschenreuth", 
+        "AGS" : "09377", 
+        "BL_ID" : "9", 
+        "EWZ" : 72046
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Bamberg", 
+        "AGS" : "09461", 
+        "BL_ID" : "9", 
+        "EWZ" : 77373
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Bayreuth", 
+        "AGS" : "09462", 
+        "BL_ID" : "9", 
+        "EWZ" : 74783
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Coburg", 
+        "AGS" : "09463", 
+        "BL_ID" : "9", 
+        "EWZ" : 41072
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Hof", 
+        "AGS" : "09464", 
+        "BL_ID" : "9", 
+        "EWZ" : 45825
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bamberg", 
+        "AGS" : "09471", 
+        "BL_ID" : "9", 
+        "EWZ" : 147163
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bayreuth", 
+        "AGS" : "09472", 
+        "BL_ID" : "9", 
+        "EWZ" : 103664
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Coburg", 
+        "AGS" : "09473", 
+        "BL_ID" : "9", 
+        "EWZ" : 86747
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Forchheim", 
+        "AGS" : "09474", 
+        "BL_ID" : "9", 
+        "EWZ" : 116203
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Hof", 
+        "AGS" : "09475", 
+        "BL_ID" : "9", 
+        "EWZ" : 94801
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Kronach", 
+        "AGS" : "09476", 
+        "BL_ID" : "9", 
+        "EWZ" : 66743
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Kulmbach", 
+        "AGS" : "09477", 
+        "BL_ID" : "9", 
+        "EWZ" : 71566
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Lichtenfels", 
+        "AGS" : "09478", 
+        "BL_ID" : "9", 
+        "EWZ" : 66776
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Wunsiedel i.Fichtelgebirge", 
+        "AGS" : "09479", 
+        "BL_ID" : "9", 
+        "EWZ" : 72655
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Ansbach", 
+        "AGS" : "09561", 
+        "BL_ID" : "9", 
+        "EWZ" : 41798
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Erlangen", 
+        "AGS" : "09562", 
+        "BL_ID" : "9", 
+        "EWZ" : 112528
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Fürth", 
+        "AGS" : "09563", 
+        "BL_ID" : "9", 
+        "EWZ" : 128497
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Nürnberg", 
+        "AGS" : "09564", 
+        "BL_ID" : "9", 
+        "EWZ" : 518370
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Schwabach", 
+        "AGS" : "09565", 
+        "BL_ID" : "9", 
+        "EWZ" : 40981
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ansbach", 
+        "AGS" : "09571", 
+        "BL_ID" : "9", 
+        "EWZ" : 184591
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Erlangen-Höchstadt", 
+        "AGS" : "09572", 
+        "BL_ID" : "9", 
+        "EWZ" : 137262
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Fürth", 
+        "AGS" : "09573", 
+        "BL_ID" : "9", 
+        "EWZ" : 117853
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Nürnberger Land", 
+        "AGS" : "09574", 
+        "BL_ID" : "9", 
+        "EWZ" : 170792
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Neustadt a.d.Aisch-Bad Windsheim", 
+        "AGS" : "09575", 
+        "BL_ID" : "9", 
+        "EWZ" : 101014
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Roth", 
+        "AGS" : "09576", 
+        "BL_ID" : "9", 
+        "EWZ" : 126749
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Weißenburg-Gunzenhausen", 
+        "AGS" : "09577", 
+        "BL_ID" : "9", 
+        "EWZ" : 94734
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Aschaffenburg", 
+        "AGS" : "09661", 
+        "BL_ID" : "9", 
+        "EWZ" : 71002
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Schweinfurt", 
+        "AGS" : "09662", 
+        "BL_ID" : "9", 
+        "EWZ" : 53426
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Würzburg", 
+        "AGS" : "09663", 
+        "BL_ID" : "9", 
+        "EWZ" : 127934
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Aschaffenburg", 
+        "AGS" : "09671", 
+        "BL_ID" : "9", 
+        "EWZ" : 174200
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bad Kissingen", 
+        "AGS" : "09672", 
+        "BL_ID" : "9", 
+        "EWZ" : 103235
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rhön-Grabfeld", 
+        "AGS" : "09673", 
+        "BL_ID" : "9", 
+        "EWZ" : 79635
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Haßberge", 
+        "AGS" : "09674", 
+        "BL_ID" : "9", 
+        "EWZ" : 84384
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Kitzingen", 
+        "AGS" : "09675", 
+        "BL_ID" : "9", 
+        "EWZ" : 91155
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Miltenberg", 
+        "AGS" : "09676", 
+        "BL_ID" : "9", 
+        "EWZ" : 128743
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Main-Spessart", 
+        "AGS" : "09677", 
+        "BL_ID" : "9", 
+        "EWZ" : 126158
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Schweinfurt", 
+        "AGS" : "09678", 
+        "BL_ID" : "9", 
+        "EWZ" : 115445
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Würzburg", 
+        "AGS" : "09679", 
+        "BL_ID" : "9", 
+        "EWZ" : 162302
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Augsburg", 
+        "AGS" : "09761", 
+        "BL_ID" : "9", 
+        "EWZ" : 296582
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Kaufbeuren", 
+        "AGS" : "09762", 
+        "BL_ID" : "9", 
+        "EWZ" : 44398
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Kempten", 
+        "AGS" : "09763", 
+        "BL_ID" : "9", 
+        "EWZ" : 69151
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Memmingen", 
+        "AGS" : "09764", 
+        "BL_ID" : "9", 
+        "EWZ" : 44100
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Aichach-Friedberg", 
+        "AGS" : "09771", 
+        "BL_ID" : "9", 
+        "EWZ" : 134655
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Augsburg", 
+        "AGS" : "09772", 
+        "BL_ID" : "9", 
+        "EWZ" : 253468
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Dillingen a.d.Donau", 
+        "AGS" : "09773", 
+        "BL_ID" : "9", 
+        "EWZ" : 96562
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Günzburg", 
+        "AGS" : "09774", 
+        "BL_ID" : "9", 
+        "EWZ" : 127027
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Neu-Ulm", 
+        "AGS" : "09775", 
+        "BL_ID" : "9", 
+        "EWZ" : 175204
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Lindau", 
+        "AGS" : "09776", 
+        "BL_ID" : "9", 
+        "EWZ" : 81981
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ostallgäu", 
+        "AGS" : "09777", 
+        "BL_ID" : "9", 
+        "EWZ" : 141182
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Unterallgäu", 
+        "AGS" : "09778", 
+        "BL_ID" : "9", 
+        "EWZ" : 145341
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Donau-Ries", 
+        "AGS" : "09779", 
+        "BL_ID" : "9", 
+        "EWZ" : 133783
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Oberallgäu", 
+        "AGS" : "09780", 
+        "BL_ID" : "9", 
+        "EWZ" : 156008
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Stadtverband Saarbrücken", 
+        "AGS" : "10041", 
+        "BL_ID" : "10", 
+        "EWZ" : 328714
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Merzig-Wadern", 
+        "AGS" : "10042", 
+        "BL_ID" : "10", 
+        "EWZ" : 103243
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Neunkirchen", 
+        "AGS" : "10043", 
+        "BL_ID" : "10", 
+        "EWZ" : 131408
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Saarlouis", 
+        "AGS" : "10044", 
+        "BL_ID" : "10", 
+        "EWZ" : 194319
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Saar-Pfalz-Kreis", 
+        "AGS" : "10045", 
+        "BL_ID" : "10", 
+        "EWZ" : 142196
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Sankt Wendel", 
+        "AGS" : "10046", 
+        "BL_ID" : "10", 
+        "EWZ" : 87007
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Brandenburg a.d.Havel", 
+        "AGS" : "12051", 
+        "BL_ID" : "12", 
+        "EWZ" : 72184
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Cottbus", 
+        "AGS" : "12052", 
+        "BL_ID" : "12", 
+        "EWZ" : 99678
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Frankfurt (Oder)", 
+        "AGS" : "12053", 
+        "BL_ID" : "12", 
+        "EWZ" : 57751
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Potsdam", 
+        "AGS" : "12054", 
+        "BL_ID" : "12", 
+        "EWZ" : 180334
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Barnim", 
+        "AGS" : "12060", 
+        "BL_ID" : "12", 
+        "EWZ" : 185244
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Dahme-Spreewald", 
+        "AGS" : "12061", 
+        "BL_ID" : "12", 
+        "EWZ" : 170791
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Elbe-Elster", 
+        "AGS" : "12062", 
+        "BL_ID" : "12", 
+        "EWZ" : 101827
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Havelland", 
+        "AGS" : "12063", 
+        "BL_ID" : "12", 
+        "EWZ" : 162996
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Märkisch-Oderland", 
+        "AGS" : "12064", 
+        "BL_ID" : "12", 
+        "EWZ" : 195751
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Oberhavel", 
+        "AGS" : "12065", 
+        "BL_ID" : "12", 
+        "EWZ" : 212914
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Oberspreewald-Lausitz", 
+        "AGS" : "12066", 
+        "BL_ID" : "12", 
+        "EWZ" : 109371
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Oder-Spree", 
+        "AGS" : "12067", 
+        "BL_ID" : "12", 
+        "EWZ" : 178803
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ostprignitz-Ruppin", 
+        "AGS" : "12068", 
+        "BL_ID" : "12", 
+        "EWZ" : 98861
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Potsdam-Mittelmark", 
+        "AGS" : "12069", 
+        "BL_ID" : "12", 
+        "EWZ" : 216566
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Prignitz", 
+        "AGS" : "12070", 
+        "BL_ID" : "12", 
+        "EWZ" : 76158
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Spree-Neiße", 
+        "AGS" : "12071", 
+        "BL_ID" : "12", 
+        "EWZ" : 113720
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Teltow-Fläming", 
+        "AGS" : "12072", 
+        "BL_ID" : "12", 
+        "EWZ" : 169997
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Uckermark", 
+        "AGS" : "12073", 
+        "BL_ID" : "12", 
+        "EWZ" : 118947
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Rostock", 
+        "AGS" : "13003", 
+        "BL_ID" : "13", 
+        "EWZ" : 209191
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Schwerin", 
+        "AGS" : "13004", 
+        "BL_ID" : "13", 
+        "EWZ" : 95653
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Mecklenburgische Seenplatte", 
+        "AGS" : "13071", 
+        "BL_ID" : "13", 
+        "EWZ" : 258074
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Rostock", 
+        "AGS" : "13072", 
+        "BL_ID" : "13", 
+        "EWZ" : 215794
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Vorpommern-Rügen", 
+        "AGS" : "13073", 
+        "BL_ID" : "13", 
+        "EWZ" : 224702
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Nordwestmecklenburg", 
+        "AGS" : "13074", 
+        "BL_ID" : "13", 
+        "EWZ" : 157322
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Vorpommern-Greifswald", 
+        "AGS" : "13075", 
+        "BL_ID" : "13", 
+        "EWZ" : 235623
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ludwigslust-Parchim", 
+        "AGS" : "13076", 
+        "BL_ID" : "13", 
+        "EWZ" : 211779
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Chemnitz", 
+        "AGS" : "14511", 
+        "BL_ID" : "14", 
+        "EWZ" : 246334
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Erzgebirgskreis", 
+        "AGS" : "14521", 
+        "BL_ID" : "14", 
+        "EWZ" : 334948
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Mittelsachsen", 
+        "AGS" : "14522", 
+        "BL_ID" : "14", 
+        "EWZ" : 304099
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Vogtlandkreis", 
+        "AGS" : "14523", 
+        "BL_ID" : "14", 
+        "EWZ" : 225997
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Zwickau", 
+        "AGS" : "14524", 
+        "BL_ID" : "14", 
+        "EWZ" : 315002
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Dresden", 
+        "AGS" : "14612", 
+        "BL_ID" : "14", 
+        "EWZ" : 556780
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Bautzen", 
+        "AGS" : "14625", 
+        "BL_ID" : "14", 
+        "EWZ" : 299758
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Görlitz", 
+        "AGS" : "14626", 
+        "BL_ID" : "14", 
+        "EWZ" : 252725
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Meißen", 
+        "AGS" : "14627", 
+        "BL_ID" : "14", 
+        "EWZ" : 241717
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Sächsische Schweiz-Osterzgebirge", 
+        "AGS" : "14628", 
+        "BL_ID" : "14", 
+        "EWZ" : 245586
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Leipzig", 
+        "AGS" : "14713", 
+        "BL_ID" : "14", 
+        "EWZ" : 593145
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Leipzig", 
+        "AGS" : "14729", 
+        "BL_ID" : "14", 
+        "EWZ" : 258139
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Nordsachsen", 
+        "AGS" : "14730", 
+        "BL_ID" : "14", 
+        "EWZ" : 197741
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Dessau-Roßlau", 
+        "AGS" : "15001", 
+        "BL_ID" : "15", 
+        "EWZ" : 80103
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Halle", 
+        "AGS" : "15002", 
+        "BL_ID" : "15", 
+        "EWZ" : 238762
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Magdeburg", 
+        "AGS" : "15003", 
+        "BL_ID" : "15", 
+        "EWZ" : 237565
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Altmarkkreis Salzwedel", 
+        "AGS" : "15081", 
+        "BL_ID" : "15", 
+        "EWZ" : 83173
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Anhalt-Bitterfeld", 
+        "AGS" : "15082", 
+        "BL_ID" : "15", 
+        "EWZ" : 158486
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Börde", 
+        "AGS" : "15083", 
+        "BL_ID" : "15", 
+        "EWZ" : 170923
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Burgenlandkreis", 
+        "AGS" : "15084", 
+        "BL_ID" : "15", 
+        "EWZ" : 178846
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Harz", 
+        "AGS" : "15085", 
+        "BL_ID" : "15", 
+        "EWZ" : 213310
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Jerichower Land", 
+        "AGS" : "15086", 
+        "BL_ID" : "15", 
+        "EWZ" : 89589
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Mansfeld-Südharz", 
+        "AGS" : "15087", 
+        "BL_ID" : "15", 
+        "EWZ" : 134942
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Saalekreis", 
+        "AGS" : "15088", 
+        "BL_ID" : "15", 
+        "EWZ" : 183815
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Salzlandkreis", 
+        "AGS" : "15089", 
+        "BL_ID" : "15", 
+        "EWZ" : 189125
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Stendal", 
+        "AGS" : "15090", 
+        "BL_ID" : "15", 
+        "EWZ" : 111190
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Wittenberg", 
+        "AGS" : "15091", 
+        "BL_ID" : "15", 
+        "EWZ" : 124953
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Erfurt", 
+        "AGS" : "16051", 
+        "BL_ID" : "16", 
+        "EWZ" : 213981
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Gera", 
+        "AGS" : "16052", 
+        "BL_ID" : "16", 
+        "EWZ" : 93125
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Jena", 
+        "AGS" : "16053", 
+        "BL_ID" : "16", 
+        "EWZ" : 111343
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Suhl", 
+        "AGS" : "16054", 
+        "BL_ID" : "16", 
+        "EWZ" : 36789
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Weimar", 
+        "AGS" : "16055", 
+        "BL_ID" : "16", 
+        "EWZ" : 65228
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Eichsfeld", 
+        "AGS" : "16061", 
+        "BL_ID" : "16", 
+        "EWZ" : 100006
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Nordhausen", 
+        "AGS" : "16062", 
+        "BL_ID" : "16", 
+        "EWZ" : 83416
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Wartburgkreis", 
+        "AGS" : "16063", 
+        "BL_ID" : "16", 
+        "EWZ" : 118974
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Unstrut-Hainich-Kreis", 
+        "AGS" : "16064", 
+        "BL_ID" : "16", 
+        "EWZ" : 102232
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Kyffhäuserkreis", 
+        "AGS" : "16065", 
+        "BL_ID" : "16", 
+        "EWZ" : 74212
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Schmalkalden-Meiningen", 
+        "AGS" : "16066", 
+        "BL_ID" : "16", 
+        "EWZ" : 124916
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Gotha", 
+        "AGS" : "16067", 
+        "BL_ID" : "16", 
+        "EWZ" : 134908
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Sömmerda", 
+        "AGS" : "16068", 
+        "BL_ID" : "16", 
+        "EWZ" : 69427
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Hildburghausen", 
+        "AGS" : "16069", 
+        "BL_ID" : "16", 
+        "EWZ" : 63197
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Ilm-Kreis", 
+        "AGS" : "16070", 
+        "BL_ID" : "16", 
+        "EWZ" : 106249
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Weimarer Land", 
+        "AGS" : "16071", 
+        "BL_ID" : "16", 
+        "EWZ" : 82156
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Sonneberg", 
+        "AGS" : "16072", 
+        "BL_ID" : "16", 
+        "EWZ" : 57717
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Saalfeld-Rudolstadt", 
+        "AGS" : "16073", 
+        "BL_ID" : "16", 
+        "EWZ" : 103199
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Saale-Holzland-Kreis", 
+        "AGS" : "16074", 
+        "BL_ID" : "16", 
+        "EWZ" : 82950
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Saale-Orla-Kreis", 
+        "AGS" : "16075", 
+        "BL_ID" : "16", 
+        "EWZ" : 80312
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Greiz", 
+        "AGS" : "16076", 
+        "BL_ID" : "16", 
+        "EWZ" : 97398
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "LK Altenburger Land", 
+        "AGS" : "16077", 
+        "BL_ID" : "16", 
+        "EWZ" : 89393
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Reinickendorf", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 259689
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Charlottenburg-Wilmersdorf", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 334401
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Treptow-Köpenick", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 266488
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Pankow", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 398036
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Neukölln", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 321123
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Lichtenberg", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 286522
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Marzahn-Hellersdorf", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 262967
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Spandau", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 239019
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Steglitz-Zehlendorf", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 302177
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Mitte", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 375238
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Friedrichshain-Kreuzberg", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 282059
+      }
+    }, 
+    {
+      "attributes" : {
+        "county" : "SK Berlin Tempelhof-Schöneberg", 
+        "AGS" : null, 
+        "BL_ID" : "11", 
+        "EWZ" : 341772
+      }
+    }
+  ]
+}
