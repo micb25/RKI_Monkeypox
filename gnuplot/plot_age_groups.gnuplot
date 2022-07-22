@@ -39,7 +39,7 @@ set style fill solid 1.00
 ##################################### German
 
 set label 1 at graph 0.50, 0.95 "{/Linux-Libertine-O-Bold*1.2 Altersverteilung der Affenpockenfälle in Deutschland}" center textcolor ls 0
-set label 2 at graph 0.50, 0.90 "{/*0.75 (Quelle: SurvStat\\@RKI 2.0, https://survstat.rki.de)}" center textcolor ls 0
+set label 2 at graph 0.50, 0.90 sprintf("{/*0.75 (Datenquelle: SurvStat\\@RKI 2.0, https://survstat.rki.de; Datenstand: %s)}", last_update_survstat) center textcolor ls 0
 set xlabel "Altersgruppe (in Jahren)" offset 0, -0.5
 
 plot \
@@ -84,7 +84,7 @@ plot \
 set output '../plots_en/plot_age_groups.png'
 
 set label 1 at graph 0.50, 0.95 "{/Linux-Libertine-O-Bold*1.2 Age distribution of monkeypox cases in Germany}" center textcolor ls 0
-set label 2 at graph 0.50, 0.90 "{/*0.75 (source: SurvStat\\@RKI 2.0, https://survstat.rki.de)}" center textcolor ls 0
+set label 2 at graph 0.50, 0.90 sprintf("{/*0.75 (data source: SurvStat\\@RKI 2.0, https://survstat.rki.de; last update: %s)}", last_update_survstat) center textcolor ls 0
 set xlabel "age group (in years)" offset 0, -0.5
 
 plot \

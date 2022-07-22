@@ -9,13 +9,14 @@ set fit errorvariables
 set lmargin 10.00
 set rmargin 1.25
 set tmargin 0.55
-set bmargin 4.50
+set bmargin 6.00
 
 # colors and plot style
 set style line  1 lc rgb '#0000FF' lt 1 lw 1 pt 7 ps 2.00
 set style line  2 lc rgb '#FF0000' lt 1 lw 4 pt 7 ps 2.00
 set style line  3 lc rgb '#00A000' lt 1 lw 1 pt 7 ps 2.00
 set style line  4 lc rgb '#000080' lt 1 lw 1 pt 7 ps 2.00
+set style line 99 lc rgb '#808080' lt 1 lw 1 pt 7 ps 2.00
 
 # grid
 #set grid xtics ls 21 lc rgb '#aaaaaa'
@@ -42,11 +43,17 @@ set border back
 
 set object 1 rectangle from screen -0.1,-0.1 to screen 1.1,1.1 fc rgb "#ffffff" behind
 
+set label 999 at screen 0.995, 0.03 sprintf("{/*0.75 Michael Böhme (Twitter: \\@theochemiker), graphs licensed under CC BY-NC-SA, https://github.com/micb25/RKI\\_Monkeypox}", last_update_rki) right textcolor ls 99
+
 # filter negative values
 filter_neg(x)=(x>=0)?(x):(1/0)
 
 set timefmt "%Y-%m-%d"
 set datafile separator ","
+
+# latest update
+last_update_rki = sprintf("%s", "`awk -F, '{print $1}' ../data/RKI_Monkeypox.csv | tail -n 1`")
+last_update_survstat = sprintf("%s", "`awk -F, '{print $1}' ../data/RKI_Monkeypox_processed_states.csv | tail -n 1`")
 
 # static data
 

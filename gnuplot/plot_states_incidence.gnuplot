@@ -26,7 +26,7 @@ set ytics offset 0, 0
 set lmargin 27.00
 set tmargin 3.00
 set rmargin 4.00
-set bmargin 2.5
+set bmargin 3.5
 
 # grid
 unset grid
@@ -52,7 +52,7 @@ scaling_fac = 1000000
 ##################################### German
 
 set label 1 at screen 0.50, 0.97 "{/Linux-Libertine-O-Bold*1.2 Inzidenz (pro 1 Mio.) der Affenpocken in Deutschland nach Bundesland}" center textcolor ls 0
-set label 2 at screen 0.50, 0.93 "{/*0.75 (Quelle: SurvStat\\@RKI 2.0, https://survstat.rki.de; eigene Berechnung)}" center textcolor ls 0
+set label 2 at screen 0.50, 0.93 sprintf("{/*0.75 (eigene Berechnung; Datenquelle: SurvStat\\@RKI 2.0, https://survstat.rki.de; Datenstand: %s)}", last_update_survstat) center textcolor ls 0
 
 plot \
   "< (tail -n1) < ../data/RKI_Monkeypox_processed_states.csv" using (0):(2):(0.0):($3/states_population[ 1]*scaling_fac):((2)-(binwidth/2.0)):((2)+(binwidth/2.0)) with boxxyerrorbars ls 1 notitle, \
@@ -130,7 +130,7 @@ set ytics( \
 )
 
 set label 1 at screen 0.50, 0.97 "{/Linux-Libertine-O-Bold*1.2 Incidence (per 1M) of monkeypox in Germany per state}" center textcolor ls 0
-set label 2 at screen 0.50, 0.93 "{/*0.75 (source: SurvStat\\@RKI 2.0, https://survstat.rki.de, own calculation)}" center textcolor ls 0
+set label 2 at screen 0.50, 0.93 sprintf("{/*0.75 (own calculation; data source: SurvStat\\@RKI 2.0, https://survstat.rki.de; last update: %s)}", last_update_survstat) center textcolor ls 0
 
 plot \
   "< (tail -n1) < ../data/RKI_Monkeypox_processed_states.csv" using (0):(2):(0.0):($3/states_population[ 1]*scaling_fac):((2)-(binwidth/2.0)):((2)+(binwidth/2.0)) with boxxyerrorbars ls 1 notitle, \

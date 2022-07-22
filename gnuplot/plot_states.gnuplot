@@ -4,29 +4,29 @@ set output '../plots_de/plot_states.png'
 
 # x-axis setup
 set ytics( \
-  "Baden-Württemberg"  2,\
-  "Bayern"  3,\
-  "Berlin"  4,\
-  "Brandenburg"  5,\
-  "Bremen"  6,\
-  "Hamburg"  7,\
-  "Hessen"  8,\
-  "Mecklenburg-Vorpommern"  9,\
-  "Niedersachsen" 10,\
-  "Nordrhein-Westfalen" 11,\
-  "Rheinland-Pfalz" 12,\
-  "Saarland" 13,\
-  "Sachsen" 14,\
-  "Sachsen-Anhalt" 15,\
-  "Schleswig-Holstein" 16,\
-  "Thüringen" 17 \
+  states_name_de[1]   2,\
+  states_name_de[2]   3,\
+  states_name_de[3]   4,\
+  states_name_de[4]   5,\
+  states_name_de[5]   6,\
+  states_name_de[6]   7,\
+  states_name_de[7]   8,\
+  states_name_de[8]   9,\
+  states_name_de[9]  10,\
+  states_name_de[10] 11,\
+  states_name_de[11] 12,\
+  states_name_de[12] 13,\
+  states_name_de[13] 14,\
+  states_name_de[14] 15,\
+  states_name_de[15] 16,\
+  states_name_de[16] 17 \
 )
 set yrange [17.5:1.5] reverse
 set ytics offset 0, 0
 set lmargin 27.00
 set tmargin 3.00
 set rmargin 4.00
-set bmargin 2.5
+set bmargin 3.5
 
 # grid
 unset grid
@@ -50,7 +50,7 @@ binwidth = 0.25
 ##################################### German
 
 set label 1 at screen 0.50, 0.97 "{/Linux-Libertine-O-Bold*1.2 Verteilung der Affenpockenfälle in Deutschland nach Bundesland}" center textcolor ls 0
-set label 2 at screen 0.50, 0.93 "{/*0.75 (Quelle: SurvStat\\@RKI 2.0, https://survstat.rki.de)}" center textcolor ls 0
+set label 2 at screen 0.50, 0.93 sprintf("{/*0.75 (Datenquelle: SurvStat\\@RKI 2.0, https://survstat.rki.de; Datenstand: %s)}", last_update_survstat) center textcolor ls 0
 
 plot \
   "< (tail -n1) < ../data/RKI_Monkeypox_processed_states.csv" using (0):(2):(0.0):($3):((2)-(binwidth/2.0)):((2)+(binwidth/2.0)) with boxxyerrorbars ls 1 notitle, \
@@ -109,26 +109,26 @@ plot \
 set output '../plots_en/plot_states.png'
 
 set ytics( \
-  "Baden-Württemberg"  2,\
-  "Bavaria"  3,\
-  "Berlin"  4,\
-  "Brandenburg"  5,\
-  "Bremen"  6,\
-  "Hamburg"  7,\
-  "Hesse"  8,\
-  "Mecklenburg-Vorpommern"  9,\
-  "Lower Saxony" 10,\
-  "North Rhine-Westphalia" 11,\
-  "Rhineland-Palatinate" 12,\
-  "Saarland" 13,\
-  "Saxony" 14,\
-  "Saxony-Anhalt" 15,\
-  "Schleswig-Holstein" 16,\
-  "Thuringia" 17 \
+  states_name_en[1]   2,\
+  states_name_en[2]   3,\
+  states_name_en[3]   4,\
+  states_name_en[4]   5,\
+  states_name_en[5]   6,\
+  states_name_en[6]   7,\
+  states_name_en[7]   8,\
+  states_name_en[8]   9,\
+  states_name_en[9]  10,\
+  states_name_en[10] 11,\
+  states_name_en[11] 12,\
+  states_name_en[12] 13,\
+  states_name_en[13] 14,\
+  states_name_en[14] 15,\
+  states_name_en[15] 16,\
+  states_name_en[16] 17 \
 )
 
 set label 1 at screen 0.50, 0.97 "{/Linux-Libertine-O-Bold*1.2 Distribution of monkeypox cases in Germany per state}" center textcolor ls 0
-set label 2 at screen 0.50, 0.93 "{/*0.75 (source: SurvStat\\@RKI 2.0, https://survstat.rki.de)}" center textcolor ls 0
+set label 2 at screen 0.50, 0.93 sprintf("{/*0.75 (data source: SurvStat\\@RKI 2.0, https://survstat.rki.de; last update: %s)}", last_update_survstat) center textcolor ls 0
 
 plot \
   "< (tail -n1) < ../data/RKI_Monkeypox_processed_states.csv" using (0):(2):(0.0):($3):((2)-(binwidth/2.0)):((2)+(binwidth/2.0)) with boxxyerrorbars ls 1 notitle, \
