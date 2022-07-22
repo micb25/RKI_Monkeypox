@@ -35,15 +35,7 @@ jobs:
       - name: update graphs
         run: |
           cd gnuplot/ 
-          gnuplot plot_sum_cases.gnuplot
-          gnuplot plot_sum_cases_log.gnuplot
-          gnuplot plot_num_cases.gnuplot
-          gnuplot plot_num_cases_log.gnuplot
-          gnuplot plot_incidence.gnuplot
-          gnuplot plot_7d_incidence.gnuplot
-          gnuplot plot_states.gnuplot
-          gnuplot plot_states_incidence.gnuplot
-          gnuplot plot_age_groups.gnuplot
+          ./update_graphs.sh
           cd ../
       - name: commit files
         run: |

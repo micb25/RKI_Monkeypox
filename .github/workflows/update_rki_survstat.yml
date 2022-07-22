@@ -24,9 +24,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pandas requests beautifulsoup4 webdriver-manager selenium
       - name: scrape RKI SurvStat data
-        run: cd scraper && env python3 ./rki_survstat_scraper.py && env python3 ./rki_survstat_scraper_genders.py && env python3 ./rki_survstat_district_scraper.py && env python3 ./rki_survstat_processing.py && env python3 ./rki_survstat_processing_districts.py && cd ../
-      - name: run gnuplot
-        run: cd gnuplot/ && gnuplot plot_age_groups.gnuplot && gnuplot plot_states.gnuplot && cd ../
+        run: |
+          cd scraper/ 
+          env python3 ./rki_survstat_scraper.py 
+          env python3 ./rki_survstat_scraper_genders.py 
+          env python3 ./rki_survstat_district_scraper.py 
+          env python3 ./rki_survstat_processing.py 
+          env python3 ./rki_survstat_processing_districts.py 
+          cd ../
+      - name: update graphs
+        run: |
+          cd gnuplot/ 
+          ./update_graphs.sh
+          cd ../
       - name: Commit files
         run: |
           git config --local user.name  ${{ github.actor }}
