@@ -18,13 +18,13 @@ SK Karlsruhe,312060,7,22.4316,0
 LK Karlsruhe,445101,2,4.4934,0
 SK Mannheim,310658,6,19.3138,0
 LK Neckar-Odenwald-Kreis,143633,0,0.0000,0
-SK Pforzheim,125957,4,31.7569,1
+SK Pforzheim,125957,4,31.7569,0
 LK Rastatt,231420,0,0.0000,0
 LK Rhein-Neckar-Kreis,548355,3,5.4709,0
 LK Böblingen,392807,4,10.1831,0
 LK Esslingen,535024,4,7.4763,0
 LK Göppingen,258145,0,0.0000,0
-LK Heidenheim,132777,1,7.5314,1
+LK Heidenheim,132777,1,7.5314,0
 SK Heilbronn,126592,1,7.8994,0
 LK Heilbronn,344456,1,2.9031,0
 LK Hohenlohekreis,112655,0,0.0000,0
@@ -81,8 +81,8 @@ SK Ingolstadt,137392,1,7.2784,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,0,0.0000,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,143,96.3465,-2
-LK München,350473,10,28.5329,2
+SK München,1484226,143,96.3465,0
+LK München,350473,10,28.5329,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
 SK Rosenheim,63551,0,0.0000,0
@@ -136,20 +136,20 @@ LK Main-Spessart,126158,0,0.0000,0
 LK Miltenberg,128743,1,7.7674,0
 LK Rhön-Grabfeld,79635,2,25.1146,0
 SK Schweinfurt,53426,0,0.0000,0
-LK Schweinfurt,115445,1,8.6621,1
+LK Schweinfurt,115445,1,8.6621,0
 SK Würzburg,127934,4,31.2661,0
 LK Würzburg,162302,1,6.1614,0
-SK Berlin Charlottenburg-Wilmersdorf,334401,135,403.7069,2
+SK Berlin Charlottenburg-Wilmersdorf,334401,135,403.7069,0
 SK Berlin Friedrichshain-Kreuzberg,282059,274,971.4280,0
 SK Berlin Lichtenberg,286522,58,202.4277,0
 SK Berlin Marzahn-Hellersdorf,262967,12,45.6331,0
-SK Berlin Mitte,375238,326,868.7819,2
+SK Berlin Mitte,375238,326,868.7819,0
 SK Berlin Neukölln,321123,133,414.1715,0
-SK Berlin Pankow,398036,174,437.1464,2
+SK Berlin Pankow,398036,174,437.1464,0
 SK Berlin Reinickendorf,259689,20,77.0152,0
 SK Berlin Spandau,239019,10,41.8377,0
 SK Berlin Steglitz-Zehlendorf,302177,25,82.7330,0
-SK Berlin Tempelhof-Schöneberg,341772,248,725.6300,1
+SK Berlin Tempelhof-Schöneberg,341772,248,725.6300,0
 SK Berlin Treptow-Köpenick,266488,28,105.0704,0
 LK Barnim,185244,6,32.3897,0
 SK Brandenburg a.d.Havel,72184,1,13.8535,0
@@ -175,7 +175,7 @@ SK Hamburg,1847253,131,70.9161,0
 LK Bergstraße,270340,3,11.0971,0
 SK Darmstadt,159878,3,18.7643,0
 LK Darmstadt-Dieburg,297844,3,10.0724,0
-SK Frankfurt am Main,763380,80,104.7971,2
+SK Frankfurt am Main,763380,80,104.7971,0
 LK Groß-Gerau,275726,7,25.3875,0
 LK Hochtaunuskreis,236914,2,8.4419,0
 LK Main-Kinzig-Kreis,420552,2,4.7557,0
@@ -265,13 +265,13 @@ LK Soest,301785,1,3.3136,0
 LK Unna,394891,2,5.0647,0
 SK Bielefeld,334195,0,0.0000,0
 LK Gütersloh,364938,2,5.4804,0
-LK Herford,250578,2,7.9815,1
+LK Herford,250578,2,7.9815,0
 LK Höxter,140251,0,0.0000,0
 LK Lippe,347514,0,0.0000,0
 LK Minden-Lübbecke,310409,0,0.0000,0
 LK Paderborn,307839,0,0.0000,0
 SK Duisburg,498686,10,20.0527,0
-SK Düsseldorf,621877,83,133.4669,2
+SK Düsseldorf,621877,83,133.4669,0
 SK Essen,582760,23,39.4674,0
 LK Kleve,312465,3,9.6011,0
 SK Krefeld,227417,2,8.7944,0
@@ -290,10 +290,10 @@ SK Bonn,329673,12,36.3997,0
 LK Düren,264638,6,22.6725,0
 LK Euskirchen,193656,2,10.3276,0
 LK Heinsberg,255555,1,3.9131,0
-SK Köln,1087863,325,298.7509,4
-SK Leverkusen,163729,5,30.5383,1
+SK Köln,1087863,325,298.7509,0
+SK Leverkusen,163729,5,30.5383,0
 LK Oberbergischer Kreis,272057,5,18.3785,0
-LK Rhein-Erft-Kreis,470615,16,33.9981,1
+LK Rhein-Erft-Kreis,470615,16,33.9981,0
 LK Rheinisch-Bergischer Kreis,283271,5,17.6509,0
 LK Rhein-Sieg-Kreis,600764,8,13.3164,0
 LK Borken,371339,1,2.6930,0
@@ -319,7 +319,7 @@ LK Alzey-Worms,129687,0,0.0000,0
 LK Bad Dürkheim,132671,0,0.0000,0
 LK Donnersbergkreis,75325,0,0.0000,0
 SK Frankenthal,48762,0,0.0000,0
-LK Germersheim,129013,3,23.2535,1
+LK Germersheim,129013,3,23.2535,0
 SK Kaiserslautern,100030,1,9.9970,0
 LK Kaiserslautern,105979,0,0.0000,0
 LK Kusel,70219,2,28.4823,0
@@ -352,7 +352,7 @@ LK Mittelsachsen,304099,1,3.2884,0
 LK Vogtlandkreis,225997,1,4.4248,0
 LK Zwickau,315002,0,0.0000,0
 LK Bautzen,299758,0,0.0000,0
-SK Dresden,556780,21,37.7169,4
+SK Dresden,556780,21,37.7169,0
 LK Görlitz,252725,1,3.9569,0
 LK Meißen,241717,1,4.1371,0
 LK Sächsische Schweiz-Osterzgebirge,245586,0,0.0000,0
@@ -381,7 +381,7 @@ SK Lübeck,216530,1,4.6183,0
 SK Neumünster,80196,0,0.0000,0
 LK Nordfriesland,165951,1,6.0259,0
 LK Ostholstein,200539,1,4.9866,0
-LK Pinneberg,316103,4,12.6541,1
+LK Pinneberg,316103,4,12.6541,0
 LK Plön,128686,1,7.7709,0
 LK Rendsburg-Eckernförde,274098,1,3.6483,0
 LK Schleswig-Flensburg,201156,0,0.0000,0
