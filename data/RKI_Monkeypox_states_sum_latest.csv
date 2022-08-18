@@ -1,18 +1,18 @@
 index,total_cases,total_incidence_1M,inc_cases
-Total,3213,38.6006,26
-Baden-Württemberg,135,12.1352,2
-Bavaria,257,19.5037,2
-Berlin,1521,413.5993,9
+Total,3242,38.9490,29
+Baden-Württemberg,136,12.2251,1
+Bavaria,258,19.5796,1
+Berlin,1533,416.8625,12
 Brandenburg,46,18.1255,0
 Bremen,10,14.7828,0
-Hamburg,153,82.5272,1
-Hesse,164,26.0524,2
+Hamburg,155,83.6060,2
+Hesse,171,27.1643,7
 Mecklenburg-Vorpommern,4,2.4827,0
 Lower Saxony,46,5.7306,0
-North Rhine-Westphalia,712,39.7220,8
+North Rhine-Westphalia,718,40.0567,6
 Rhineland-Palatinate,48,11.6888,0
-Saarland,13,13.2336,1
-Saxony,62,15.3351,1
+Saarland,13,13.2336,0
+Saxony,62,15.3351,0
 Saxony-Anhalt,12,5.5319,0
 Schleswig-Holstein,23,7.8713,0
 Thuringia,7,3.3193,0
