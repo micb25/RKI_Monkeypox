@@ -15,7 +15,7 @@ LK Enzkreis,199556,2,10.0222,0
 LK Freudenstadt,118243,2,16.9143,0
 SK Heidelberg,161485,4,24.7701,0
 SK Karlsruhe,312060,7,22.4316,0
-LK Karlsruhe,445101,2,4.4934,0
+LK Karlsruhe,445101,3,6.7400,1
 SK Mannheim,310658,9,28.9708,0
 LK Neckar-Odenwald-Kreis,143633,0,0.0000,0
 SK Pforzheim,125957,3,23.8177,0
@@ -50,7 +50,7 @@ LK Erlangen-Höchstadt,137262,0,0.0000,0
 SK Fürth,128497,1,7.7823,0
 LK Fürth,117853,1,8.4851,0
 LK Neustadt a.d.Aisch-Bad Windsheim,101014,0,0.0000,0
-SK Nürnberg,518370,19,36.6534,0
+SK Nürnberg,518370,20,38.5825,1
 LK Nürnberger Land,170792,1,5.8551,0
 LK Roth,126749,0,0.0000,0
 SK Schwabach,40981,1,24.4016,0
@@ -81,13 +81,13 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,0,0.0000,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,181,121.9491,-1
+SK München,1484226,181,121.9491,0
 LK München,350473,10,28.5329,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
 SK Rosenheim,63551,0,0.0000,0
 LK Rosenheim,261330,0,0.0000,0
-LK Starnberg,136667,2,14.6341,1
+LK Starnberg,136667,2,14.6341,0
 LK Traunstein,177319,0,0.0000,0
 LK Weilheim-Schongau,135478,1,7.3813,0
 SK Bamberg,77373,1,12.9244,0
@@ -115,7 +115,7 @@ LK Tirschenreuth,72046,0,0.0000,0
 SK Weiden i.d.OPf.,42743,0,0.0000,0
 LK Aichach-Friedberg,134655,0,0.0000,0
 SK Augsburg,296582,4,13.4870,0
-LK Augsburg,253468,2,7.8905,1
+LK Augsburg,253468,2,7.8905,0
 LK Dillingen a.d.Donau,96562,1,10.3560,0
 LK Donau-Ries,133783,0,0.0000,0
 LK Günzburg,127027,2,15.7447,0
@@ -140,7 +140,7 @@ LK Schweinfurt,115445,1,8.6621,0
 SK Würzburg,127934,4,31.2661,0
 LK Würzburg,162302,4,24.6454,0
 SK Berlin Charlottenburg-Wilmersdorf,334401,158,472.4866,0
-SK Berlin Friedrichshain-Kreuzberg,282059,302,1070.6980,0
+SK Berlin Friedrichshain-Kreuzberg,282059,303,1074.2433,1
 SK Berlin Lichtenberg,286522,65,226.8587,0
 SK Berlin Marzahn-Hellersdorf,262967,14,53.2386,0
 SK Berlin Mitte,375238,371,988.7058,0
@@ -171,11 +171,11 @@ LK Teltow-Fläming,169997,4,23.5298,0
 LK Uckermark,118947,0,0.0000,0
 SK Bremen,567559,9,15.8574,0
 SK Bremerhaven,113643,4,35.1979,0
-SK Hamburg,1847253,178,96.3593,1
+SK Hamburg,1847253,178,96.3593,0
 LK Bergstraße,270340,3,11.0971,0
 SK Darmstadt,159878,5,31.2738,0
 LK Darmstadt-Dieburg,297844,5,16.7873,0
-SK Frankfurt am Main,763380,112,146.7159,0
+SK Frankfurt am Main,763380,104,136.2362,-8
 LK Groß-Gerau,275726,9,32.6411,0
 LK Hochtaunuskreis,236914,4,16.8838,0
 LK Main-Kinzig-Kreis,420552,7,16.6448,0
@@ -189,7 +189,7 @@ SK Wiesbaden,278474,8,28.7280,0
 LK Gießen,270688,1,3.6943,0
 LK Lahn-Dill-Kreis,253319,0,0.0000,0
 LK Limburg-Weilburg,171912,0,0.0000,0
-LK Marburg-Biedenkopf,247084,3,12.1416,2
+LK Marburg-Biedenkopf,247084,3,12.1416,0
 LK Vogelsbergkreis,105643,1,9.4658,0
 LK Fulda,223145,1,4.4814,0
 LK Hersfeld-Rotenburg,120719,1,8.2837,0
@@ -198,7 +198,7 @@ LK Kassel,236764,2,8.4472,0
 LK Schwalm-Eder-Kreis,179673,2,11.1313,0
 LK Waldeck-Frankenberg,156406,0,0.0000,0
 LK Werra-Meißner-Kreis,100629,1,9.9375,0
-LK Ludwigslust-Parchim,211779,2,9.4438,0
+LK Ludwigslust-Parchim,211779,1,4.7219,-1
 LK Mecklenburgische Seenplatte,258074,1,3.8749,0
 LK Nordwestmecklenburg,157322,0,0.0000,0
 SK Rostock,209191,3,14.3410,0
@@ -218,7 +218,7 @@ LK Wolfenbüttel,119622,0,0.0000,0
 SK Wolfsburg,124371,0,0.0000,0
 LK Diepholz,217089,2,9.2128,0
 LK Hameln-Pyrmont,148549,2,13.4636,0
-Region Hannover,1157115,18,15.5559,0
+Region Hannover,1157115,19,16.4201,1
 LK Hildesheim,275817,3,10.8768,0
 LK Holzminden,70458,0,0.0000,0
 LK Nienburg (Weser),121390,0,0.0000,0
@@ -263,7 +263,7 @@ LK Olpe,133955,4,29.8608,0
 LK Siegen-Wittgenstein,276944,3,10.8325,0
 LK Soest,301785,2,6.6272,0
 LK Unna,394891,2,5.0647,0
-SK Bielefeld,334195,1,2.9923,0
+SK Bielefeld,334195,2,5.9845,1
 LK Gütersloh,364938,2,5.4804,0
 LK Herford,250578,3,11.9723,0
 LK Höxter,140251,1,7.1301,0
@@ -280,7 +280,7 @@ SK Mönchengladbach,261034,8,30.6473,0
 SK Mülheim a.d.Ruhr,170632,4,23.4423,0
 SK Oberhausen,210764,7,33.2125,0
 SK Remscheid,111338,1,8.9817,0
-LK Rhein-Kreis Neuss,451730,13,28.7783,0
+LK Rhein-Kreis Neuss,451730,14,30.9920,1
 SK Solingen,159245,2,12.5593,0
 LK Viersen,298863,7,23.4221,0
 LK Wesel,459976,5,10.8701,0
