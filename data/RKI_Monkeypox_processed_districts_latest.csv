@@ -81,7 +81,7 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,0,0.0000,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,182,122.6228,1
+SK München,1484226,182,122.6228,0
 LK München,350473,10,28.5329,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
@@ -140,7 +140,7 @@ LK Schweinfurt,115445,1,8.6621,0
 SK Würzburg,127934,4,31.2661,0
 LK Würzburg,162302,4,24.6454,0
 SK Berlin Charlottenburg-Wilmersdorf,334401,158,472.4866,0
-SK Berlin Friedrichshain-Kreuzberg,282059,304,1077.7887,1
+SK Berlin Friedrichshain-Kreuzberg,282059,304,1077.7887,0
 SK Berlin Lichtenberg,286522,65,226.8587,0
 SK Berlin Marzahn-Hellersdorf,262967,14,53.2386,0
 SK Berlin Mitte,375238,371,988.7058,0
@@ -156,7 +156,7 @@ SK Brandenburg a.d.Havel,72184,2,27.7070,0
 SK Cottbus,99678,2,20.0646,0
 LK Dahme-Spreewald,170791,2,11.7102,0
 LK Elbe-Elster,101827,1,9.8206,0
-SK Frankfurt (Oder),57751,1,17.3157,1
+SK Frankfurt (Oder),57751,1,17.3157,0
 LK Havelland,162996,7,42.9458,0
 LK Märkisch-Oderland,195751,4,20.4341,0
 LK Oberhavel,212914,7,32.8771,0
@@ -171,7 +171,7 @@ LK Teltow-Fläming,169997,4,23.5298,0
 LK Uckermark,118947,0,0.0000,0
 SK Bremen,567559,9,15.8574,0
 SK Bremerhaven,113643,4,35.1979,0
-SK Hamburg,1847253,179,96.9006,1
+SK Hamburg,1847253,179,96.9006,0
 LK Bergstraße,270340,3,11.0971,0
 SK Darmstadt,159878,5,31.2738,0
 LK Darmstadt-Dieburg,297844,5,16.7873,0
@@ -319,13 +319,13 @@ LK Alzey-Worms,129687,0,0.0000,0
 LK Bad Dürkheim,132671,0,0.0000,0
 LK Donnersbergkreis,75325,0,0.0000,0
 SK Frankenthal,48762,0,0.0000,0
-LK Germersheim,129013,4,31.0046,1
+LK Germersheim,129013,4,31.0046,0
 SK Kaiserslautern,100030,1,9.9970,0
 LK Kaiserslautern,105979,1,9.4358,0
 LK Kusel,70219,2,28.4823,0
 SK Landau i.d.Pfalz,46881,1,21.3306,0
 SK Ludwigshafen,172253,3,17.4162,0
-SK Mainz,218578,9,41.1752,1
+SK Mainz,218578,9,41.1752,0
 LK Mainz-Bingen,211417,0,0.0000,0
 SK Neustadt a.d.Weinstraße,53264,0,0.0000,0
 SK Pirmasens,40231,0,0.0000,0
@@ -356,7 +356,7 @@ SK Dresden,556780,32,57.4733,0
 LK Görlitz,252725,1,3.9569,0
 LK Meißen,241717,1,4.1371,0
 LK Sächsische Schweiz-Osterzgebirge,245586,0,0.0000,0
-SK Leipzig,593145,25,42.1482,1
+SK Leipzig,593145,25,42.1482,0
 LK Leipzig,258139,1,3.8739,0
 LK Nordsachsen,197741,0,0.0000,0
 LK Altmarkkreis Salzwedel,83173,0,0.0000,0
