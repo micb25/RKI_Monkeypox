@@ -28,7 +28,7 @@ LK Heidenheim,132777,1,7.5314,0
 SK Heilbronn,126592,2,15.7988,0
 LK Heilbronn,344456,0,0.0000,0
 LK Hohenlohekreis,112655,0,0.0000,0
-LK Ludwigsburg,545423,8,14.6675,0
+LK Ludwigsburg,545423,10,18.3344,2
 LK Main-Tauber-Kreis,132399,1,7.5529,0
 LK Ostalbkreis,314025,2,6.3689,0
 LK Rems-Murr-Kreis,427248,6,14.0434,0
@@ -73,7 +73,7 @@ LK Berchtesgadener Land,105929,2,18.8806,0
 LK Dachau,154899,4,25.8233,0
 LK Ebersberg,143649,1,6.9614,0
 LK Eichstätt,132881,0,0.0000,0
-LK Erding,138182,0,0.0000,0
+LK Erding,138182,1,7.2368,1
 LK Freising,180007,3,16.6660,0
 LK Fürstenfeldbruck,219311,2,9.1195,0
 LK Garmisch-Partenkirchen,88424,0,0.0000,0
@@ -95,7 +95,7 @@ LK Bamberg,147163,0,0.0000,0
 SK Bayreuth,74783,1,13.3720,0
 LK Bayreuth,103664,1,9.6466,0
 SK Coburg,41072,0,0.0000,0
-LK Coburg,86747,2,23.0556,0
+LK Coburg,86747,3,34.5833,1
 LK Forchheim,116203,0,0.0000,0
 SK Hof,45825,0,0.0000,0
 LK Hof,94801,0,0.0000,0
@@ -144,7 +144,7 @@ SK Berlin Friedrichshain-Kreuzberg,282059,304,1077.7887,0
 SK Berlin Lichtenberg,286522,65,226.8587,0
 SK Berlin Marzahn-Hellersdorf,262967,14,53.2386,0
 SK Berlin Mitte,375238,371,988.7058,0
-SK Berlin Neukölln,321123,153,476.4529,0
+SK Berlin Neukölln,321123,154,479.5670,1
 SK Berlin Pankow,398036,203,510.0041,0
 SK Berlin Reinickendorf,259689,24,92.4182,0
 SK Berlin Spandau,239019,11,46.0214,0
@@ -176,7 +176,7 @@ LK Bergstraße,270340,3,11.0971,0
 SK Darmstadt,159878,5,31.2738,0
 LK Darmstadt-Dieburg,297844,5,16.7873,0
 SK Frankfurt am Main,763380,104,136.2362,0
-LK Groß-Gerau,275726,9,32.6411,0
+LK Groß-Gerau,275726,10,36.2679,1
 LK Hochtaunuskreis,236914,4,16.8838,0
 LK Main-Kinzig-Kreis,420552,7,16.6448,0
 LK Main-Taunus-Kreis,238558,7,29.3430,0
@@ -290,7 +290,7 @@ SK Bonn,329673,12,36.3997,0
 LK Düren,264638,6,22.6725,0
 LK Euskirchen,193656,3,15.4914,0
 LK Heinsberg,255555,3,11.7392,0
-SK Köln,1087863,380,349.3087,0
+SK Köln,1087863,381,350.2279,1
 SK Leverkusen,163729,5,30.5383,0
 LK Oberbergischer Kreis,272057,5,18.3785,0
 LK Rhein-Erft-Kreis,470615,23,48.8722,0
