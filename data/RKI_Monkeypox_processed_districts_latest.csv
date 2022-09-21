@@ -28,10 +28,10 @@ LK Heidenheim,132777,1,7.5314,0
 SK Heilbronn,126592,2,15.7988,0
 LK Heilbronn,344456,0,0.0000,0
 LK Hohenlohekreis,112655,0,0.0000,0
-LK Ludwigsburg,545423,10,18.3344,2
+LK Ludwigsburg,545423,10,18.3344,0
 LK Main-Tauber-Kreis,132399,1,7.5529,0
 LK Ostalbkreis,314025,2,6.3689,0
-LK Rems-Murr-Kreis,427248,6,14.0434,0
+LK Rems-Murr-Kreis,427248,7,16.3839,1
 LK Schwäbisch Hall,196761,2,10.1646,0
 SK Stuttgart,635911,53,83.3450,0
 LK Alb-Donau-Kreis,197076,1,5.0742,0
@@ -73,7 +73,7 @@ LK Berchtesgadener Land,105929,2,18.8806,0
 LK Dachau,154899,4,25.8233,0
 LK Ebersberg,143649,1,6.9614,0
 LK Eichstätt,132881,0,0.0000,0
-LK Erding,138182,1,7.2368,1
+LK Erding,138182,1,7.2368,0
 LK Freising,180007,3,16.6660,0
 LK Fürstenfeldbruck,219311,2,9.1195,0
 LK Garmisch-Partenkirchen,88424,0,0.0000,0
@@ -81,7 +81,7 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,0,0.0000,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,182,122.6228,0
+SK München,1484226,190,128.0128,8
 LK München,350473,10,28.5329,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
@@ -95,7 +95,7 @@ LK Bamberg,147163,0,0.0000,0
 SK Bayreuth,74783,1,13.3720,0
 LK Bayreuth,103664,1,9.6466,0
 SK Coburg,41072,0,0.0000,0
-LK Coburg,86747,3,34.5833,1
+LK Coburg,86747,3,34.5833,0
 LK Forchheim,116203,0,0.0000,0
 SK Hof,45825,0,0.0000,0
 LK Hof,94801,0,0.0000,0
@@ -144,12 +144,12 @@ SK Berlin Friedrichshain-Kreuzberg,282059,304,1077.7887,0
 SK Berlin Lichtenberg,286522,65,226.8587,0
 SK Berlin Marzahn-Hellersdorf,262967,14,53.2386,0
 SK Berlin Mitte,375238,371,988.7058,0
-SK Berlin Neukölln,321123,154,479.5670,1
+SK Berlin Neukölln,321123,154,479.5670,0
 SK Berlin Pankow,398036,203,510.0041,0
 SK Berlin Reinickendorf,259689,24,92.4182,0
 SK Berlin Spandau,239019,11,46.0214,0
 SK Berlin Steglitz-Zehlendorf,302177,30,99.2796,0
-SK Berlin Tempelhof-Schöneberg,341772,274,801.7041,0
+SK Berlin Tempelhof-Schöneberg,341772,275,804.6300,1
 SK Berlin Treptow-Köpenick,266488,30,112.5754,0
 LK Barnim,185244,6,32.3897,0
 SK Brandenburg a.d.Havel,72184,2,27.7070,0
@@ -175,13 +175,13 @@ SK Hamburg,1847253,179,96.9006,0
 LK Bergstraße,270340,3,11.0971,0
 SK Darmstadt,159878,5,31.2738,0
 LK Darmstadt-Dieburg,297844,5,16.7873,0
-SK Frankfurt am Main,763380,104,136.2362,0
-LK Groß-Gerau,275726,10,36.2679,1
+SK Frankfurt am Main,763380,105,137.5462,1
+LK Groß-Gerau,275726,10,36.2679,0
 LK Hochtaunuskreis,236914,4,16.8838,0
 LK Main-Kinzig-Kreis,420552,7,16.6448,0
 LK Main-Taunus-Kreis,238558,7,29.3430,0
 LK Odenwaldkreis,96703,0,0.0000,0
-SK Offenbach,130280,9,69.0820,0
+SK Offenbach,130280,10,76.7578,1
 LK Offenbach,355813,11,30.9151,0
 LK Rheingau-Taunus-Kreis,187160,2,10.6860,0
 LK Wetteraukreis,308339,8,25.9455,0
@@ -189,7 +189,7 @@ SK Wiesbaden,278474,8,28.7280,0
 LK Gießen,270688,1,3.6943,0
 LK Lahn-Dill-Kreis,253319,0,0.0000,0
 LK Limburg-Weilburg,171912,0,0.0000,0
-LK Marburg-Biedenkopf,247084,3,12.1416,0
+LK Marburg-Biedenkopf,247084,4,16.1888,1
 LK Vogelsbergkreis,105643,1,9.4658,0
 LK Fulda,223145,1,4.4814,0
 LK Hersfeld-Rotenburg,120719,1,8.2837,0
@@ -243,7 +243,7 @@ LK Emsland,326954,2,6.1171,0
 LK Friesland,98704,0,0.0000,0
 LK Grafschaft Bentheim,137162,0,0.0000,0
 LK Leer,170756,0,0.0000,0
-SK Oldenburg,169077,1,5.9145,0
+SK Oldenburg,169077,2,11.8289,1
 LK Oldenburg,130890,0,0.0000,0
 SK Osnabrück,165251,2,12.1028,0
 LK Osnabrück,358080,3,8.3780,0
@@ -290,7 +290,7 @@ SK Bonn,329673,12,36.3997,0
 LK Düren,264638,6,22.6725,0
 LK Euskirchen,193656,3,15.4914,0
 LK Heinsberg,255555,3,11.7392,0
-SK Köln,1087863,381,350.2279,1
+SK Köln,1087863,381,350.2279,0
 SK Leverkusen,163729,5,30.5383,0
 LK Oberbergischer Kreis,272057,5,18.3785,0
 LK Rhein-Erft-Kreis,470615,23,48.8722,0
@@ -356,7 +356,7 @@ SK Dresden,556780,32,57.4733,0
 LK Görlitz,252725,1,3.9569,0
 LK Meißen,241717,1,4.1371,0
 LK Sächsische Schweiz-Osterzgebirge,245586,0,0.0000,0
-SK Leipzig,593145,25,42.1482,0
+SK Leipzig,593145,26,43.8341,1
 LK Leipzig,258139,1,3.8739,0
 LK Nordsachsen,197741,0,0.0000,0
 LK Altmarkkreis Salzwedel,83173,0,0.0000,0
