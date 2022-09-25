@@ -33,7 +33,7 @@ LK Main-Tauber-Kreis,132399,1,7.5529,0
 LK Ostalbkreis,314025,2,6.3689,0
 LK Rems-Murr-Kreis,427248,7,16.3839,0
 LK Schwäbisch Hall,196761,2,10.1646,0
-SK Stuttgart,635911,54,84.9175,1
+SK Stuttgart,635911,54,84.9175,0
 LK Alb-Donau-Kreis,197076,1,5.0742,0
 LK Biberach,201282,0,0.0000,0
 LK Bodenseekreis,217470,1,4.5983,0
@@ -81,7 +81,7 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,0,0.0000,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,190,128.0128,1
+SK München,1484226,190,128.0128,0
 LK München,350473,10,28.5329,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
@@ -169,7 +169,7 @@ LK Prignitz,76158,0,0.0000,0
 LK Spree-Neiße,113720,1,8.7935,0
 LK Teltow-Fläming,169997,4,23.5298,0
 LK Uckermark,118947,0,0.0000,0
-SK Bremen,567559,12,21.1432,1
+SK Bremen,567559,12,21.1432,0
 SK Bremerhaven,113643,4,35.1979,0
 SK Hamburg,1847253,179,96.9006,0
 LK Bergstraße,270340,3,11.0971,0
@@ -255,7 +255,7 @@ SK Bochum,365587,14,38.2946,0
 SK Dortmund,588250,11,18.6995,0
 LK Ennepe-Ruhr-Kreis,324106,3,9.2562,0
 SK Hagen,188686,5,26.4991,0
-SK Hamm,179916,4,22.2326,1
+SK Hamm,179916,4,22.2326,0
 SK Herne,156449,0,0.0000,0
 LK Hochsauerlandkreis,259777,1,3.8495,0
 LK Märkischer Kreis,410222,4,9.7508,0
