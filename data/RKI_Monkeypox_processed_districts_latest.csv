@@ -3,7 +3,7 @@ LK Breisgau-Hochschwarzwald,263601,2,7.5872,0
 LK Emmendingen,166408,2,12.0187,0
 SK Freiburg i.Breisgau,231195,7,30.2775,0
 LK Konstanz,286305,2,6.9856,0
-LK Lörrach,228736,1,4.3719,0
+LK Lörrach,228736,2,8.7437,1
 LK Ortenaukreis,430953,9,20.8839,0
 LK Rottweil,139878,1,7.1491,0
 LK Schwarzwald-Baar-Kreis,212506,2,9.4115,0
@@ -81,7 +81,7 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,0,0.0000,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,190,128.0128,0
+SK München,1484226,188,126.6653,-2
 LK München,350473,10,28.5329,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
@@ -139,11 +139,11 @@ SK Schweinfurt,53426,0,0.0000,0
 LK Schweinfurt,115445,1,8.6621,0
 SK Würzburg,127934,4,31.2661,0
 LK Würzburg,162302,4,24.6454,0
-SK Berlin Charlottenburg-Wilmersdorf,334401,160,478.4675,0
+SK Berlin Charlottenburg-Wilmersdorf,334401,161,481.4579,1
 SK Berlin Friedrichshain-Kreuzberg,282059,305,1081.3340,0
 SK Berlin Lichtenberg,286522,65,226.8587,0
 SK Berlin Marzahn-Hellersdorf,262967,14,53.2386,0
-SK Berlin Mitte,375238,372,991.3708,0
+SK Berlin Mitte,375238,374,996.7008,2
 SK Berlin Neukölln,321123,154,479.5670,0
 SK Berlin Pankow,398036,203,510.0041,0
 SK Berlin Reinickendorf,259689,24,92.4182,0
@@ -171,7 +171,7 @@ LK Teltow-Fläming,169997,4,23.5298,0
 LK Uckermark,118947,0,0.0000,0
 SK Bremen,567559,12,21.1432,0
 SK Bremerhaven,113643,4,35.1979,0
-SK Hamburg,1847253,179,96.9006,0
+SK Hamburg,1847253,180,97.4420,1
 LK Bergstraße,270340,3,11.0971,0
 SK Darmstadt,159878,5,31.2738,0
 LK Darmstadt-Dieburg,297844,5,16.7873,0
@@ -272,7 +272,7 @@ LK Minden-Lübbecke,310409,0,0.0000,0
 LK Paderborn,307839,0,0.0000,0
 SK Duisburg,498686,13,26.0685,0
 SK Düsseldorf,621877,101,162.4115,0
-SK Essen,582760,30,51.4792,0
+SK Essen,582760,31,53.1951,1
 LK Kleve,312465,3,9.6011,0
 SK Krefeld,227417,6,26.3833,0
 LK Mettmann,485570,8,16.4755,0
@@ -314,7 +314,7 @@ LK Mayen-Koblenz,214434,4,18.6538,0
 LK Neuwied,182811,2,10.9403,0
 LK Rhein-Hunsrück-Kreis,103163,1,9.6934,0
 LK Rhein-Lahn-Kreis,122297,4,32.7073,0
-LK Westerwaldkreis,201904,1,4.9528,0
+LK Westerwaldkreis,201904,2,9.9057,1
 LK Alzey-Worms,129687,0,0.0000,0
 LK Bad Dürkheim,132671,0,0.0000,0
 LK Donnersbergkreis,75325,0,0.0000,0
@@ -356,7 +356,7 @@ SK Dresden,556780,32,57.4733,0
 LK Görlitz,252725,1,3.9569,0
 LK Meißen,241717,1,4.1371,0
 LK Sächsische Schweiz-Osterzgebirge,245586,0,0.0000,0
-SK Leipzig,593145,28,47.2060,0
+SK Leipzig,593145,29,48.8919,1
 LK Leipzig,258139,1,3.8739,0
 LK Nordsachsen,197741,0,0.0000,0
 LK Altmarkkreis Salzwedel,83173,0,0.0000,0
