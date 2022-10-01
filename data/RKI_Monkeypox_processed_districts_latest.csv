@@ -16,7 +16,7 @@ LK Freudenstadt,118243,2,16.9143,0
 SK Heidelberg,161485,4,24.7701,0
 SK Karlsruhe,312060,7,22.4316,0
 LK Karlsruhe,445101,3,6.7400,0
-SK Mannheim,310658,10,32.1897,0
+SK Mannheim,310658,11,35.4087,1
 LK Neckar-Odenwald-Kreis,143633,0,0.0000,0
 SK Pforzheim,125957,3,23.8177,0
 LK Rastatt,231420,0,0.0000,0
@@ -79,15 +79,15 @@ LK Fürstenfeldbruck,219311,2,9.1195,0
 LK Garmisch-Partenkirchen,88424,0,0.0000,0
 SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
-LK Miesbach,100010,1,9.9990,1
+LK Miesbach,100010,1,9.9990,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
 SK München,1484226,188,126.6653,0
-LK München,350473,10,28.5329,0
+LK München,350473,11,31.3862,1
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
 SK Rosenheim,63551,0,0.0000,0
 LK Rosenheim,261330,0,0.0000,0
-LK Starnberg,136667,2,14.6341,0
+LK Starnberg,136667,3,21.9512,1
 LK Traunstein,177319,0,0.0000,0
 LK Weilheim-Schongau,135478,1,7.3813,0
 SK Bamberg,77373,1,12.9244,0
@@ -149,7 +149,7 @@ SK Berlin Pankow,398036,203,510.0041,0
 SK Berlin Reinickendorf,259689,24,92.4182,0
 SK Berlin Spandau,239019,11,46.0214,0
 SK Berlin Steglitz-Zehlendorf,302177,30,99.2796,0
-SK Berlin Tempelhof-Schöneberg,341772,276,807.5559,0
+SK Berlin Tempelhof-Schöneberg,341772,277,810.4818,1
 SK Berlin Treptow-Köpenick,266488,30,112.5754,0
 LK Barnim,185244,6,32.3897,0
 SK Brandenburg a.d.Havel,72184,2,27.7070,0
@@ -182,7 +182,7 @@ LK Main-Kinzig-Kreis,420552,8,19.0226,0
 LK Main-Taunus-Kreis,238558,7,29.3430,0
 LK Odenwaldkreis,96703,0,0.0000,0
 SK Offenbach,130280,10,76.7578,0
-LK Offenbach,355813,12,33.7256,0
+LK Offenbach,355813,13,36.5360,1
 LK Rheingau-Taunus-Kreis,187160,2,10.6860,0
 LK Wetteraukreis,308339,8,25.9455,0
 SK Wiesbaden,278474,8,28.7280,0
@@ -196,7 +196,7 @@ LK Hersfeld-Rotenburg,120719,1,8.2837,0
 SK Kassel,202137,3,14.8414,0
 LK Kassel,236764,2,8.4472,0
 LK Schwalm-Eder-Kreis,179673,2,11.1313,0
-LK Waldeck-Frankenberg,156406,0,0.0000,0
+LK Waldeck-Frankenberg,156406,1,6.3936,1
 LK Werra-Meißner-Kreis,100629,1,9.9375,0
 LK Ludwigslust-Parchim,211779,1,4.7219,0
 LK Mecklenburgische Seenplatte,258074,1,3.8749,0
@@ -251,7 +251,7 @@ LK Vechta,142814,0,0.0000,0
 LK Wesermarsch,88583,0,0.0000,0
 SK Wilhelmshaven,76089,0,0.0000,0
 LK Wittmund,56926,0,0.0000,0
-SK Bochum,365587,15,41.0299,1
+SK Bochum,365587,15,41.0299,0
 SK Dortmund,588250,11,18.6995,0
 LK Ennepe-Ruhr-Kreis,324106,3,9.2562,0
 SK Hagen,188686,5,26.4991,0
@@ -281,7 +281,7 @@ SK Mülheim a.d.Ruhr,170632,4,23.4423,0
 SK Oberhausen,210764,7,33.2125,0
 SK Remscheid,111338,1,8.9817,0
 LK Rhein-Kreis Neuss,451730,15,33.2057,0
-SK Solingen,159245,3,18.8389,1
+SK Solingen,159245,3,18.8389,0
 LK Viersen,298863,7,23.4221,0
 LK Wesel,459976,5,10.8701,0
 SK Wuppertal,355100,12,33.7933,0
@@ -352,7 +352,7 @@ LK Mittelsachsen,304099,1,3.2884,0
 LK Vogtlandkreis,225997,2,8.8497,0
 LK Zwickau,315002,0,0.0000,0
 LK Bautzen,299758,2,6.6720,0
-SK Dresden,556780,35,62.8615,1
+SK Dresden,556780,35,62.8615,0
 LK Görlitz,252725,1,3.9569,0
 LK Meißen,241717,1,4.1371,0
 LK Sächsische Schweiz-Osterzgebirge,245586,0,0.0000,0
