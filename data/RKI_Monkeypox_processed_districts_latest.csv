@@ -13,7 +13,7 @@ SK Baden-Baden,55185,0,0.0000,0
 LK Calw,159201,0,0.0000,0
 LK Enzkreis,199556,2,10.0222,0
 LK Freudenstadt,118243,2,16.9143,0
-SK Heidelberg,161485,5,30.9626,1
+SK Heidelberg,161485,5,30.9626,0
 SK Karlsruhe,312060,7,22.4316,0
 LK Karlsruhe,445101,3,6.7400,0
 SK Mannheim,310658,11,35.4087,0
@@ -41,7 +41,7 @@ LK Ravensburg,285424,1,3.5036,0
 LK Reutlingen,287034,2,6.9678,0
 LK Sigmaringen,130849,0,0.0000,0
 LK Tübingen,228678,3,13.1189,0
-SK Ulm,126790,5,39.4353,1
+SK Ulm,126790,5,39.4353,0
 LK Zollernalbkreis,189363,0,0.0000,0
 SK Ansbach,41798,0,0.0000,0
 LK Ansbach,184591,1,5.4174,0
@@ -81,7 +81,7 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,1,9.9990,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,191,128.6866,2
+SK München,1484226,193,130.0341,2
 LK München,350473,11,31.3862,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
@@ -140,9 +140,9 @@ LK Schweinfurt,115445,1,8.6621,0
 SK Würzburg,127934,4,31.2661,0
 LK Würzburg,162302,4,24.6454,0
 SK Berlin Charlottenburg-Wilmersdorf,334401,163,487.4387,0
-SK Berlin Friedrichshain-Kreuzberg,282059,306,1084.8794,0
+SK Berlin Friedrichshain-Kreuzberg,282059,308,1091.9701,2
 SK Berlin Lichtenberg,286522,66,230.3488,0
-SK Berlin Marzahn-Hellersdorf,262967,14,53.2386,0
+SK Berlin Marzahn-Hellersdorf,262967,15,57.0414,1
 SK Berlin Mitte,375238,375,999.3657,0
 SK Berlin Neukölln,321123,155,482.6811,0
 SK Berlin Pankow,398036,203,510.0041,0
@@ -175,7 +175,7 @@ SK Hamburg,1847253,181,97.9833,0
 LK Bergstraße,270340,3,11.0971,0
 SK Darmstadt,159878,5,31.2738,0
 LK Darmstadt-Dieburg,297844,5,16.7873,0
-SK Frankfurt am Main,763380,109,142.7860,1
+SK Frankfurt am Main,763380,109,142.7860,0
 LK Groß-Gerau,275726,10,36.2679,0
 LK Hochtaunuskreis,236914,5,21.1047,0
 LK Main-Kinzig-Kreis,420552,8,19.0226,0
