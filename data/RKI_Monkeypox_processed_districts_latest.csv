@@ -81,7 +81,7 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,1,9.9990,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,194,130.7079,1
+SK München,1484226,194,130.7079,0
 LK München,350473,11,31.3862,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
@@ -140,8 +140,8 @@ LK Schweinfurt,115445,1,8.6621,0
 SK Würzburg,127934,4,31.2661,0
 LK Würzburg,162302,4,24.6454,0
 SK Berlin Charlottenburg-Wilmersdorf,334401,163,487.4387,0
-SK Berlin Friedrichshain-Kreuzberg,282059,309,1095.5155,1
-SK Berlin Lichtenberg,286522,67,233.8389,1
+SK Berlin Friedrichshain-Kreuzberg,282059,309,1095.5155,0
+SK Berlin Lichtenberg,286522,67,233.8389,0
 SK Berlin Marzahn-Hellersdorf,262967,15,57.0414,0
 SK Berlin Mitte,375238,375,999.3657,0
 SK Berlin Neukölln,321123,155,482.6811,0
@@ -191,7 +191,7 @@ LK Lahn-Dill-Kreis,253319,0,0.0000,0
 LK Limburg-Weilburg,171912,0,0.0000,0
 LK Marburg-Biedenkopf,247084,4,16.1888,0
 LK Vogelsbergkreis,105643,1,9.4658,0
-LK Fulda,223145,1,4.4814,0
+LK Fulda,223145,2,8.9628,1
 LK Hersfeld-Rotenburg,120719,1,8.2837,0
 SK Kassel,202137,3,14.8414,0
 LK Kassel,236764,2,8.4472,0
