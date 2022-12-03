@@ -81,7 +81,7 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,1,9.9990,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,196,132.0554,0
+SK München,1484226,195,131.3816,-1
 LK München,350473,11,31.3862,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
@@ -175,7 +175,7 @@ SK Hamburg,1847253,184,99.6074,0
 LK Bergstraße,270340,4,14.7962,0
 SK Darmstadt,159878,5,31.2738,0
 LK Darmstadt-Dieburg,297844,5,16.7873,0
-SK Frankfurt am Main,763380,110,144.0960,1
+SK Frankfurt am Main,763380,110,144.0960,0
 LK Groß-Gerau,275726,10,36.2679,0
 LK Hochtaunuskreis,236914,5,21.1047,0
 LK Main-Kinzig-Kreis,420552,8,19.0226,0
