@@ -81,7 +81,7 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,1,9.9990,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,195,131.3816,-1
+SK München,1484226,195,131.3816,0
 LK München,350473,11,31.3862,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
@@ -329,7 +329,7 @@ SK Mainz,218578,9,41.1752,0
 LK Mainz-Bingen,211417,0,0.0000,0
 SK Neustadt a.d.Weinstraße,53264,0,0.0000,0
 SK Pirmasens,40231,0,0.0000,0
-LK Rhein-Pfalz-Kreis,154609,2,12.9359,0
+LK Rhein-Pfalz-Kreis,154609,3,19.4038,1
 SK Speyer,50561,0,0.0000,0
 LK Südliche Weinstraße,110521,0,0.0000,0
 LK Südwestpfalz,94831,0,0.0000,0
