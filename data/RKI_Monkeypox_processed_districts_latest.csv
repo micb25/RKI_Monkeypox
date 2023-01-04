@@ -144,16 +144,16 @@ SK Berlin Friedrichshain-Kreuzberg,282059,310,1099.0608,0
 SK Berlin Lichtenberg,286522,67,233.8389,0
 SK Berlin Marzahn-Hellersdorf,262967,15,57.0414,0
 SK Berlin Mitte,375238,378,1007.3607,0
-SK Berlin Neukölln,321123,158,492.0233,0
+SK Berlin Neukölln,321123,157,488.9092,-1
 SK Berlin Pankow,398036,205,515.0288,0
-SK Berlin Reinickendorf,259689,26,100.1198,1
+SK Berlin Reinickendorf,259689,26,100.1198,0
 SK Berlin Spandau,239019,11,46.0214,0
 SK Berlin Steglitz-Zehlendorf,302177,30,99.2796,0
 SK Berlin Tempelhof-Schöneberg,341772,277,810.4818,0
 SK Berlin Treptow-Köpenick,266488,30,112.5754,0
 LK Barnim,185244,6,32.3897,0
 SK Brandenburg a.d.Havel,72184,2,27.7070,0
-SK Cottbus,99678,2,20.0646,2
+SK Cottbus,99678,2,20.0646,0
 LK Dahme-Spreewald,170791,2,11.7102,0
 LK Elbe-Elster,101827,1,9.8206,0
 SK Frankfurt (Oder),57751,0,0.0000,0
@@ -164,7 +164,7 @@ LK Oberspreewald-Lausitz,109371,2,18.2864,0
 LK Oder-Spree,178803,3,16.7782,0
 LK Ostprignitz-Ruppin,98861,2,20.2304,0
 SK Potsdam,180334,9,49.9074,0
-LK Potsdam-Mittelmark,216566,1,4.6175,1
+LK Potsdam-Mittelmark,216566,1,4.6175,0
 LK Prignitz,76158,0,0.0000,0
 LK Spree-Neiße,113720,1,8.7935,0
 LK Teltow-Fläming,169997,4,23.5298,0
@@ -309,8 +309,8 @@ LK Altenkirchen,128805,0,0.0000,0
 LK Bad Kreuznach,158345,1,6.3153,0
 LK Birkenfeld,80951,0,0.0000,0
 LK Cochem-Zell,61375,0,0.0000,0
-SK Koblenz,114052,4,35.0717,3
-LK Mayen-Koblenz,214434,1,4.6634,-3
+SK Koblenz,114052,4,35.0717,0
+LK Mayen-Koblenz,214434,1,4.6634,0
 LK Neuwied,182811,2,10.9403,0
 LK Rhein-Hunsrück-Kreis,103163,1,9.6934,0
 LK Rhein-Lahn-Kreis,122297,4,32.7073,0
