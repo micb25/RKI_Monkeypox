@@ -139,7 +139,7 @@ SK Schweinfurt,53426,0,0.0000,0
 LK Schweinfurt,115445,1,8.6621,0
 SK Würzburg,127934,4,31.2661,0
 LK Würzburg,162302,4,24.6454,0
-SK Berlin Charlottenburg-Wilmersdorf,334401,163,487.4387,0
+SK Berlin Charlottenburg-Wilmersdorf,334401,162,484.4483,-1
 SK Berlin Friedrichshain-Kreuzberg,282059,310,1099.0608,0
 SK Berlin Lichtenberg,286522,67,233.8389,0
 SK Berlin Marzahn-Hellersdorf,262967,15,57.0414,0
@@ -159,7 +159,7 @@ LK Elbe-Elster,101827,1,9.8206,0
 SK Frankfurt (Oder),57751,0,0.0000,0
 LK Havelland,162996,7,42.9458,0
 LK Märkisch-Oderland,195751,4,20.4341,0
-LK Oberhavel,212914,7,32.8771,0
+LK Oberhavel,212914,8,37.5739,1
 LK Oberspreewald-Lausitz,109371,2,18.2864,0
 LK Oder-Spree,178803,3,16.7782,0
 LK Ostprignitz-Ruppin,98861,2,20.2304,0
