@@ -89,7 +89,7 @@ SK Rosenheim,63551,0,0.0000,0
 LK Rosenheim,261330,0,0.0000,0
 LK Starnberg,136667,3,21.9512,0
 LK Traunstein,177319,0,0.0000,0
-LK Weilheim-Schongau,135478,1,7.3813,0
+LK Weilheim-Schongau,135478,0,0.0000,-1
 SK Bamberg,77373,1,12.9244,0
 LK Bamberg,147163,0,0.0000,0
 SK Bayreuth,74783,1,13.3720,0
@@ -159,7 +159,7 @@ LK Elbe-Elster,101827,1,9.8206,0
 SK Frankfurt (Oder),57751,0,0.0000,0
 LK Havelland,162996,7,42.9458,0
 LK Märkisch-Oderland,195751,4,20.4341,0
-LK Oberhavel,212914,7,32.8771,-1
+LK Oberhavel,212914,7,32.8771,0
 LK Oberspreewald-Lausitz,109371,2,18.2864,0
 LK Oder-Spree,178803,3,16.7782,0
 LK Ostprignitz-Ruppin,98861,2,20.2304,0
