@@ -3,7 +3,7 @@ LK Breisgau-Hochschwarzwald,263601,2,7.5872,0
 LK Emmendingen,166408,2,12.0187,0
 SK Freiburg i.Breisgau,231195,7,30.2775,0
 LK Konstanz,286305,3,10.4783,0
-LK Lörrach,228736,2,8.7437,0
+LK Lörrach,228736,3,13.1156,1
 LK Ortenaukreis,430953,9,20.8839,0
 LK Rottweil,139878,1,7.1491,0
 LK Schwarzwald-Baar-Kreis,212506,2,9.4115,0
@@ -81,7 +81,7 @@ SK Ingolstadt,137392,2,14.5569,0
 LK Landsberg a.Lech,120302,0,0.0000,0
 LK Miesbach,100010,1,9.9990,0
 LK Mühldorf a.Inn,115872,2,17.2604,0
-SK München,1484226,195,131.3816,0
+SK München,1484226,196,132.0554,1
 LK München,350473,11,31.3862,0
 LK Neuburg-Schrobenhausen,97303,1,10.2772,0
 LK Pfaffenhofen a.d.Ilm,128227,1,7.7987,0
@@ -89,7 +89,7 @@ SK Rosenheim,63551,0,0.0000,0
 LK Rosenheim,261330,0,0.0000,0
 LK Starnberg,136667,3,21.9512,0
 LK Traunstein,177319,0,0.0000,0
-LK Weilheim-Schongau,135478,0,0.0000,-1
+LK Weilheim-Schongau,135478,0,0.0000,0
 SK Bamberg,77373,1,12.9244,0
 LK Bamberg,147163,0,0.0000,0
 SK Bayreuth,74783,1,13.3720,0
