@@ -143,12 +143,12 @@ SK Berlin Charlottenburg-Wilmersdorf,334401,162,484.4483,0
 SK Berlin Friedrichshain-Kreuzberg,282059,310,1099.0608,0
 SK Berlin Lichtenberg,286522,67,233.8389,0
 SK Berlin Marzahn-Hellersdorf,262967,15,57.0414,0
-SK Berlin Mitte,375238,379,1010.0256,1
+SK Berlin Mitte,375238,379,1010.0256,0
 SK Berlin Neukölln,321123,157,488.9092,0
-SK Berlin Pankow,398036,208,522.5658,0
-SK Berlin Reinickendorf,259689,26,100.1198,0
+SK Berlin Pankow,398036,209,525.0781,1
+SK Berlin Reinickendorf,259689,25,96.2690,-1
 SK Berlin Spandau,239019,11,46.0214,0
-SK Berlin Steglitz-Zehlendorf,302177,31,102.5889,1
+SK Berlin Steglitz-Zehlendorf,302177,31,102.5889,0
 SK Berlin Tempelhof-Schöneberg,341772,278,813.4078,0
 SK Berlin Treptow-Köpenick,266488,30,112.5754,0
 LK Barnim,185244,6,32.3897,0
