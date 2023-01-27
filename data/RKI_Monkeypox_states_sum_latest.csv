@@ -1,8 +1,8 @@
 index,total_cases,total_incidence_1M,inc_cases
-Total,3684,44.2591,1
+Total,3685,44.2711,1
 Baden-Württemberg,170,15.2814,0
-Bavaria,308,23.3741,1
-Berlin,1675,455.4759,0
+Bavaria,308,23.3741,0
+Berlin,1676,455.7479,1
 Brandenburg,53,20.8837,0
 Bremen,18,26.6090,0
 Hamburg,184,99.2484,0
